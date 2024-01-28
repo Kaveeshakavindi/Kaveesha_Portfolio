@@ -1,0 +1,172 @@
+/* Work.css */
+
+.work-section-container {
+  opacity: 1;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+  margin: 3rem;
+}
+
+.work-section-container.visible {
+  opacity: 1;
+  transform: translateY(20);
+}
+
+.timeline {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.work-grid-row {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.work-card {
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.column-divider {
+  width: 1px;
+  background-color: rgba(128, 0, 255, 0.27);
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+.work-card:hover {
+  background-color: rgba(191, 124, 239, 0.056);
+  cursor: pointer;
+}
+
+.work-card-image {
+  width: 8rem;
+  height: 5rem;
+  border-radius: 5px;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+
+.work-card-image:hover {
+  border: solid 2px rgba(255, 255, 255, 0.336);
+}
+.work-card-title-container {
+  display: flex;
+}
+
+.work-card-title {
+  color: rgba(255, 255, 255, 0.853);
+  margin-right: 5px;
+}
+
+.work-card-arrow {
+  color: rgba(255, 255, 255, 0.853);
+  transition: transform 0.3s ease;
+}
+
+.work-card:hover .work-card-arrow {
+  transform: translateX(2px);
+  color: #d15cff;
+}
+
+.work-card:hover .work-card-title {
+  color: #d15cff;
+}
+
+.work-card-description {
+  color: rgba(255, 255, 255, 0.506);
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.work-skill-container {
+  display: flex;
+}
+
+.work-skill {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #d184eb36;
+  color: #d184eb;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+@media screen and (max-width:1024px) {
+  .column-divider {
+    visibility: hidden;
+  }
+
+  .timeline {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .work-grid-row {
+    display: inline;
+    gap: 10px;
+    position: relative;
+  }
+}
+
+/* Responsive styles for even smaller screens (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+  .work-section-container {
+    margin: 1rem;
+  }
+
+  .column-divider {
+    visibility: hidden;
+  }
+
+  .work-card-image {
+    width: 8rem;
+    height: 5rem;
+    border-radius: 5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .work-grid-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .work-card {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .work-card-title {
+    color: rgba(255, 255, 255, 0.853);
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  .work-card-description {
+    color: rgba(255, 255, 255, 0.506);
+    font-size: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

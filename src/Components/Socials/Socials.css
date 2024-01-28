@@ -1,0 +1,47 @@
+/* VerticalNavbar.css */
+
+
+.vertical-navbar {
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  
+  .vertical-navbar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .vertical-navbar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .socials-contents-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .contents-container{
+    margin: 10px;
+  }
+
+  .contents-image{
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    
+  }
+
+  .contents-text{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 50%;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+  }

@@ -1,0 +1,42 @@
+
+
+.solid-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.solid-button-container:hover{
+  cursor: pointer;
+  
+}
+.solid-button-title {
+  font-size: 12px;
+  color: white;
+  opacity: 70%;
+  font-family: 'Open Sans', sans-serif;
+  transition: color 0.3s;
+}
+
+.solid-button-container:hover .solid-button-title {
+  cursor: pointer;
+  color: rgb(255, 0, 170);
+}
+
+.solid-button-container:hover .download-icon {
+  cursor: pointer;
+  color: rgb(255, 0, 170);
+  border: solid rgb(255, 0, 170) 1px;
+}
+
+.download-icon {
+    padding: 5px;
+    border: solid white 1px;
+    border-radius: 8px;
+    opacity: 50%;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+
+
