@@ -8,11 +8,12 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 export const Work = () => {
   
 
-const WorkCard = ({ title, description, imgUrl, skills}) => {
+const WorkCard = ({ title, description, imgUrl, skills,href}) => {
   
   return (
   
     <div className="work-card">
+      <a href={href}>
       <div className="work-card-image-container">
         <img src={imgUrl} alt="project" className="work-card-image" />
       </div>
@@ -30,7 +31,7 @@ const WorkCard = ({ title, description, imgUrl, skills}) => {
           ))}
         </div>
       </div>
-      
+      </a>
     </div>
   );
 };
@@ -50,68 +51,80 @@ const [ref, inView] = useInView({
       
           <div className="timeline" >
             <div className="work-grid-row">
+              
             <WorkCard
-              title={"A hub for craftmanship"}
+              title={"Portfolio Website"}
               description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
+                "A sleek portfolio website showcasing creativity and skills, crafted with React.js."
                 
               }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "Java"]}
-              
+              imgUrl={"/images/portfolio.png"}
+              skills={["React", "JavaScript", "CSS" ]}
+              href={'"https://github.com/Kaveeshakavindi/Kaveesha_Portfolio.git"'}
             />
+          
             <div className="column-divider"></div>
+            
             <WorkCard
-              title={"A hub for craftmanship"}
+              title={"Craft Masters"}
               description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
+                "Experience craftsmanship at its finest! Craft Masters, a React Native app, connects users with skilled craftsmen, featuring a stylish dark and light theme. "
               }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "Python"]}
+              imgUrl={"/images/craftmasters.png"}
+              skills={["React Native", "JavaScript","Figma"]}
+             href={'https://github.com/Kaveeshakavindi/Horizontally-scrollable-tab-bar.git'}
+            />
+         
+            </div>
+            <div className="work-grid-row">
              
+            <WorkCard
+              title={"Adventura"}
+              description={
+                "Embark on a journey with Adventura, a React Native travel app, helping users discover and explore tourist attractions around the globe."
+              }
+              imgUrl={"/images/adventura.png"}
+              skills={["React Native", "TypeScript", "Figma"]}
+           href={"https://github.com/Kaveeshakavindi/Adventura.git"}
             />
+          
+            <div className="column-divider"></div>
+        
+            <WorkCard
+              title={"Blueberi"}
+              description={
+                "Elevate your style with Blueberi, an e-commerce clothing website. Built with React.js and TypeScript, it offers a seamless shopping experience."
+              }
+              imgUrl={"/images/blueberi.png"}
+              skills={["React", "TypeScript", "CSS", "Figma"]}
+           href={"https://github.com/Kaveeshakavindi/Blueberi.git"}
+            />
+         
             </div>
             <div className="work-grid-row">
+              
             <WorkCard
-              title={"A hub for craftmanship"}
+              title={"Dice Rolling Game"}
               description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
+                "Roll the virtual dice in this Kotlin app! Challenge the computer in a thrilling game of chance, rolling five dice at a time."
               }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "CSS"]}
-           
+              imgUrl={"/images/dice.png"}
+              skills={["Kotlin", "Figma"]}
+           href={"https://github.com/Kaveeshakavindi/Dice_rolling_game.git"}
             />
+        
             <div className="column-divider"></div>
+            
             <WorkCard
-              title={"A hub for craftmanship"}
+              title={"Meal App"}
               description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
+                "Satisfy your culinary cravings with the Meal App. This Kotlin CRUD application, powered by the MealDB API, serves up a delightful experience for food enthusiasts."
               }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "CSS"]}
-           
+              imgUrl={"/images/mealapp.png"}
+              skills={["Kotlin", "MealDB API", "Figma"]}
+           href={"https://github.com/Kaveeshakavindi/Meal_App.git"}
             />
-            </div>
-            <div className="work-grid-row">
-            <WorkCard
-              title={"A hub for craftmanship"}
-              description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
-              }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "CSS"]}
-           
-            />
-            <div className="column-divider"></div>
-            <WorkCard
-              title={"A hub for craftmanship"}
-              description={
-                "Craft Masters App - Connecting skilled artisans with those in need! Check out the sleek UI design on Behance and dive into the world where craftsmanship meets technology. "
-              }
-              imgUrl={"/images/portfolio1.jpeg"}
-              skills={["React", "CSS"]}
-           
-            />
+         
             </div>
           </div>
         </div>

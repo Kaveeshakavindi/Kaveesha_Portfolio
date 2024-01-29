@@ -5,7 +5,6 @@ import "./Navbar.css";
 import SonarWave from "../SonarWave/SonarWave";
 import { SlSocialGithub } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";
-import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import { SlSocialBehance } from "react-icons/sl";
 
@@ -30,30 +29,38 @@ export const Navbar = () => {
     <BrowserRouter>
       <div className={`nav-container ${isScrolled ? "scrolled" : ""}`}>
         <div className="logo">
-          
-
-          <a href="#home" className="logo-name">Kaveesha</a>
-          <a href="#home" >
-          <SonarWave/> 
+          <a href="#home" className="logo-name">
+            Kaveesha
+          </a>
+          <a href="#home">
+            <div className="sonar-container">
+              <SonarWave />
+            </div>
           </a>
         </div>
 
         <div className="contacts-container">
           <ul className="contact-ul">
-          <li className="contact-li">
-            <a href="https://www.behance.net/kaveeshfernand"><SlSocialBehance /></a>
-            </li>
-          <li className="contact-li">
-            <a href="https://www.facebook.com/kaveesha.fernando.104855/"><SlSocialFacebook /></a>
+            <li className="contact-li">
+              <a href="https://www.behance.net/kaveeshfernand">
+                <SlSocialBehance />
+              </a>
             </li>
             <li className="contact-li">
-            <a href="https://github.com/Kaveeshakavindi"><SlSocialGithub /></a>
+              <a href="https://www.facebook.com/kaveesha.fernando.104855/">
+                <SlSocialFacebook />
+              </a>
             </li>
             <li className="contact-li">
-            <a href="https://www.linkedin.com/in/kaveesha-fernando-b94301224"><SlSocialLinkedin /></a>
+              <a href="https://github.com/Kaveeshakavindi">
+                <SlSocialGithub />
+              </a>
             </li>
-            
-            
+            <li className="contact-li">
+              <a href="https://www.linkedin.com/in/kaveesha-fernando-b94301224">
+                <SlSocialLinkedin />
+              </a>
+            </li>
           </ul>
         </div>
         {/* <div className="navigation">
@@ -112,8 +119,6 @@ export const Navbar = () => {
             </li>
           </ul>
         </div> */}
-
-
       </div>
     </BrowserRouter>
   );

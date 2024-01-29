@@ -12,7 +12,7 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #d184eb; /* Adjust the dot color */
+    background-color: var(--main-var-color); /* Adjust the dot color */
     border-radius: 50%;
     animation: sonarAnimation 1s linear infinite;
   }
@@ -20,7 +20,7 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #d184eb; /* Adjust the dot color */
+    background-color: var(--main-var-color); /* Adjust the dot color */
     border-radius: 50%;
     
   }

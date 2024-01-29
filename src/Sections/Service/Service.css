@@ -1,21 +1,18 @@
 .service-container {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s, transform 0.5s;
   margin: 3rem;
-}
-.service-container.visible {
-  opacity: 1;
-  transform: translateY(20);
 }
 
 .service-cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-rows: repeat(
+    2,
+    175px
+  ); /* Set a fixed height, adjust as needed */
+  gap: 5rem;
   justify-content: center;
   align-items: center;
+  
 }
 
 .service-card {
@@ -26,8 +23,9 @@
   align-items: center;
   border-radius: 10px;
   border: solid 0.01px rgba(255, 255, 255, 0.227);
-  margin: 10px;
-  transition: transform 0.3s;
+  margin-bottom: 2rem;
+  transition: transform 0.5s;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -35,18 +33,19 @@
 }
 
 .service-title {
-  color: rgb(243, 133, 255);
+  color: var(--main-var-color);
   font-size: 12px;
   margin: 10px 0;
   text-align: left;
 }
 
 .service-description {
-  color: white;
+  color: rgba(255, 255, 255, 0.698);
   font-size: 12px;
   text-align: left;
+  line-height: 1.5;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .service-container {
     align-items: center;
   }
@@ -54,11 +53,24 @@
   .service-cards-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 5px;
+    grid-template-rows: repeat(5, auto); /* Set height to auto */
+    gap: 5rem;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
+  }
+  .service-card {
+    background-color: #ffffff17;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 0.01px rgba(255, 255, 255, 0.227);
+    margin-bottom: 0;
+    transition: transform 0.5s;
+    height: 100%;
+    align-self: center;
   }
 }
 @media screen and (max-width: 480px) {
@@ -70,11 +82,23 @@
   .service-cards-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 5px;
+    grid-template-rows: repeat(5, auto); /* Set height to auto */
+    gap: 5rem;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 0;
+    margin: 2rem;
+  }
+  .service-card {
+    background-color: #ffffff17;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 0.01px rgba(255, 255, 255, 0.227);
+    margin-bottom: 0;
+    transition: transform 0.5s;
+    height: 100%;
+    align-self: center;
   }
 }

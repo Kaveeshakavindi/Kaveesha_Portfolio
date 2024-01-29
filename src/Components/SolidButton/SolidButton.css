@@ -20,13 +20,13 @@
 
 .solid-button-container:hover .solid-button-title {
   cursor: pointer;
-  color: rgb(255, 0, 170);
+  color: var(--main-var-color);
 }
 
 .solid-button-container:hover .download-icon {
   cursor: pointer;
-  color: rgb(255, 0, 170);
-  border: solid rgb(255, 0, 170) 1px;
+  color: var(--main-var-color);
+  border: solid var(--main-var-color) 1px;
 }
 
 .download-icon {

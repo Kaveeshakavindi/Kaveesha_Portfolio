@@ -1,15 +1,10 @@
 /* Work.css */
 
 .work-section-container {
-  opacity: 1;
-  transform: translateY(20px);
-  transition: opacity 0.5s, transform 0.5s;
   margin: 3rem;
-}
-
-.work-section-container.visible {
-  opacity: 1;
-  transform: translateY(20);
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .timeline {
@@ -21,6 +16,12 @@
   display: flex;
   gap: 10px;
   position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
 }
 
 .work-card {
@@ -28,20 +29,25 @@
   padding: 2rem;
   box-sizing: border-box;
   border-radius: 10px;
+  transition: background-color 0.3s ease;
+  width: 50%;
+  margin-bottom: 20px;
 }
 .column-divider {
-  width: 1px;
-  background-color: rgba(128, 0, 255, 0.27);
+  width: 0.1px;
+  background-color: var(--main-var-color);
   height: 100%;
   position: absolute;
   left: 50%;
   top: 0;
   bottom: 0;
+  opacity: 20%;
 }
 
 .work-card:hover {
-  background-color: rgba(191, 124, 239, 0.056);
+  background-color: rgba(33, 20, 44, 0.539);
   cursor: pointer;
+  box-shadow: 0px 1px 5px #00000023;
 }
 
 .work-card-image {
@@ -71,11 +77,11 @@
 
 .work-card:hover .work-card-arrow {
   transform: translateX(2px);
-  color: #d15cff;
+  color: var(--main-var-color);
 }
 
 .work-card:hover .work-card-title {
-  color: #d15cff;
+  color: var(--main-var-color);
 }
 
 .work-card-description {
@@ -91,8 +97,8 @@
 .work-skill {
   margin: 5px;
   padding: 5px 10px;
-  background-color: #d184eb36;
-  color: #d184eb;
+  background-color: #d15cff1a;
+  color: var(--main-var-color);
   border-radius: 20px;
   font-size: 12px;
 }
@@ -103,14 +109,17 @@
   }
 
   .timeline {
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: column;
+   
   }
 
   .work-grid-row {
     display: inline;
-    gap: 10px;
+    gap: 0px;
     position: relative;
+  }
+  .work-card{
+    width: 100%;
   }
 }
 
