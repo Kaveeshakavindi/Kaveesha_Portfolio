@@ -41,7 +41,7 @@ export const Home = () => {
           </div>
           <div className="home-about-h1">Hi! I'm Kaveesha Fernando.</div>
           <div className="home-about-p2" ref={sectionRef}>
-          I specialize in crafting outstanding digital experiences, with a focus on developing RESTful APIs and seamless integrations. My expertise lies in both building and occasionally designing innovative <span className='home-span'>software solutions.</span>
+          Specializing in the creation of exceptional digital experiences, the emphasis is placed on the development of APIs and the seamless integration of various components. Proficient in both the construction and occasional design of <span className='home-span'>innovative solutions.</span>
           </div>
           <div className="home-components-container">
             <SolidButton onClick={handleDownloadClick}/>

@@ -42,15 +42,15 @@ export const Service = () => {
         <div className='service-container' ref={sectionRef}>
             <div className="sectionTitle">Services</div>
           <div className="service-cards-container">
-            <ServiceCard title={'Mobile App Development'} description={"I specialize in Mobile App Development, leveraging my expertise in Android Studio, React Native, Flutter, and Xcode. Proficient in JavaScript, TypeScript, and Dart, I bring a diverse skill set to crafting innovative and user-friendly mobile applications. As a Mobile Engineering Intern at Axiata Digital Labs, I've honed my skills in creating seamless and impactful solutions in the dynamic field of mobile development."}/>
+            <ServiceCard title={'Mobile App Development'} description={"Demonstrates expertise in Mobile App Development, utilizing Android Studio, React Native, Flutter, and Xcode. Possesses advanced skills in JavaScript, TypeScript, and Dart. Gained valuable experience through a Mobile Engineering Internship at Axiata Digital Labs, contributing to the creation of effective mobile solutions."}/>
 
-            <ServiceCard title={'Web Development'} description={"Specializing in crafting dynamic and responsive websites, I utilize HTML, CSS, and JavaScript. Leveraging frameworks like React.js and Node.js (JavaScript/TypeScript), I ensure seamless front-end and back-end development. Proficient in server-side frameworks like Express.js (Node.js) and Spring Boot (Java), I excel in managing SQL databases such as MySQL and NoSQL databases like MongoDB."}/>
+            <ServiceCard title={'Web Development'} description={"Focused on creating dynamic, responsive websites, utilizing HTML, CSS, and JavaScript. Employing React.js and Node.js for seamless front-end and back-end development. Skilled in Express.js and Spring Boot for server-side frameworks, managing SQL (MySQL) and NoSQL (MongoDB) databases."}/>
 
-            <ServiceCard title={'Graphic Designing'} description={"As a seasoned graphic designer, I bring creativity and precision to every project, leveraging my expertise in Adobe Photoshop, Illustrator, and InDesign. With a flair for digital art using Procreate, I seamlessly blend my past roles as an IT and Marketing Director for Leo Club of IIT and Media Head for Open Hack, ensuring a unique and strategic approach to visual communication."}/>
+            <ServiceCard title={'Graphic Designing'} description={"Bringing creativity and precision to projects, adept in Adobe Photoshop, Illustrator, and InDesign. Proficient in digital art with Procreate. Previous roles include IT and Marketing Director at Leo Club of IIT, and Media Head at Open Hack."}/>
 
-            <ServiceCard title={'UI/UX Designing'} description={"I specialize in crafting seamless and visually engaging user experiences through UI/UX design. Proficient in tools like Figma and Adobe XD, I bring ideas to life with intuitive interfaces and interactive prototypes that elevate digital products."}/>
+            <ServiceCard title={'UI/UX Designing'} description={"Demonstrating adeptness in creating compelling user experiences through UI/UX design, employing tools such as Figma and Adobe XD. Elevating digital products by materializing ideas into intuitive interfaces."}/>
 
-            <ServiceCard title={'Database Management'} description={"I excel in crafting robust database solutions using MySQL and MongoDB, ensuring efficient data management and seamless integration."}/>
+            <ServiceCard title={'Database Management'} description={"Proficient in developing robust database solutions with a focus on MySQL and MongoDB, ensuring streamlined data management and seamless integration for optimal performance."}/>
            
           </div>
         </div>
