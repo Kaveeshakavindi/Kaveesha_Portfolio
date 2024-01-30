@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page-container">
       <div className='loading-gif'>
-        <img src='/images/monster.gif'/>
+        <img src='images/monster.gif'/>
       </div>
     </div>
   )
