@@ -11,7 +11,7 @@ export const Blog = () => {
         <div className="blog-card-container">
           <div className="blog-card-img-container">
             <img
-              src="images/restful.png"
+              src="./images/restful.png"
               alt="blog"
               className="blog-card-img"
             />

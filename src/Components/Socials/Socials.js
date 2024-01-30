@@ -11,7 +11,7 @@ export const Socials = () => {
     <div className='socials-contents-container'>
       <div className='contents-container'>
         
-      <img src='images/sdgp.png' className='contents-image'/>
+      <img src='./images/sdgp.png' className='contents-image'/>
       <div className='contents-text'>Contents:</div>
       <ProgressBar/>
     </div>

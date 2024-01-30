@@ -74,7 +74,7 @@ const sectionRef = useRef();
                 "A sleek portfolio website showcasing creativity and skills, crafted with React.js."
                 
               }
-              imgUrl={"images/portfolio.png"}
+              imgUrl={"./images/portfolio.png"}
               skills={["React", "JavaScript", "CSS" ]}
               href={'"https://github.com/Kaveeshakavindi/Kaveesha_Portfolio.git"'}
             />
@@ -86,7 +86,7 @@ const sectionRef = useRef();
               description={
                 "Experience craftsmanship at its finest! Craft Masters, a React Native app, connects users with skilled craftsmen, featuring a stylish dark and light theme. "
               }
-              imgUrl={"images/craftmasters.png"}
+              imgUrl={"./images/craftmasters.png"}
               skills={["React Native", "JavaScript","Figma"]}
              href={'https://github.com/Kaveeshakavindi/Horizontally-scrollable-tab-bar.git'}
             />
@@ -99,7 +99,7 @@ const sectionRef = useRef();
               description={
                 "Embark on a journey with Adventura, a React Native travel app, helping users discover and explore tourist attractions around the globe."
               }
-              imgUrl={"images/adventura.png"}
+              imgUrl={"./images/adventura.png"}
               skills={["React Native", "TypeScript", "Figma"]}
            href={"https://github.com/Kaveeshakavindi/Adventura.git"}
             />
@@ -111,7 +111,7 @@ const sectionRef = useRef();
               description={
                 "Elevate your style with Blueberi, an e-commerce clothing website. Built with React.js and TypeScript, it offers a seamless shopping experience."
               }
-              imgUrl={"images/blueberi.png"}
+              imgUrl={"./images/blueberi.png"}
               skills={["React", "TypeScript", "CSS", "Figma"]}
            href={"https://github.com/Kaveeshakavindi/Blueberi.git"}
             />
@@ -124,7 +124,7 @@ const sectionRef = useRef();
               description={
                 "Roll the virtual dice in this Kotlin app! Challenge the computer in a thrilling game of chance, rolling five dice at a time."
               }
-              imgUrl={"images/dice.png"}
+              imgUrl={"./images/dice.png"}
               skills={["Kotlin", "Figma"]}
            href={"https://github.com/Kaveeshakavindi/Dice_rolling_game.git"}
             />
@@ -136,7 +136,7 @@ const sectionRef = useRef();
               description={
                 "Satisfy your culinary cravings with the Meal App. This Kotlin CRUD application, powered by the MealDB API, serves up a delightful experience for food enthusiasts."
               }
-              imgUrl={"images/mealapp.png"}
+              imgUrl={"./images/mealapp.png"}
               skills={["Kotlin", "MealDB API", "Figma"]}
            href={"https://github.com/Kaveeshakavindi/Meal_App.git"}
             />
