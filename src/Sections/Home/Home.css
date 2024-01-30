@@ -1,9 +1,11 @@
 .home-container {
   padding: 5rem 5rem 0 5rem;
   height: 90vh;
+  align-items: center;
 }
 
 .home-about {
+  align-items: center;
   text-align: left;
   width: 60%;
   color: white;
@@ -44,15 +46,20 @@
 /*reponsive*/
 
 @media screen and (max-width: 1024px) {
-  
   .home-container {
-    height: 50vh;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 5rem 0 5rem;
   }
+
   .home-about {
     text-align: left;
     width: 100%;
     color: white;
   }
+
   .home-about-h1 {
     font-size: 40px;
   }
@@ -66,7 +73,7 @@
 @media only screen and (max-width: 480px) {
   .home-container {
     height: 75vh;
-    padding: 10rem 2rem 0 2rem;
+    padding: 5rem 2rem 0 2rem;
   }
   .home-about {
     text-align: left;

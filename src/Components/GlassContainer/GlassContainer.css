@@ -1,53 +1,45 @@
 .glass-container {
   background-color: #ffffff17;
   backdrop-filter: blur(10px);
-  padding: 10px;
-  justify-content: center;
+  padding: 20px;
+  justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   border: solid 0.01px rgba(255, 255, 255, 0.227);
   display: flex;
+  flex-direction: row;
   z-index: -1;
   text-align: center;
-  display: block;
+  width: 90%;
   
 }
 
+.glass-container-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .glass-lang-icon {
-  padding: 10px;
+  flex: 1; /* This ensures each icon takes up equal space */
+  margin: 0 5px; /* Add some margin for spacing between icons */
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.glass-lang-icon:hover {
-  color: red;
+
 }
 
-@media screen and (max-width:1024px) {
-  .glass-container {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: block;
-    width: 100%;
+
+
+@media screen and (max-width: 1024px) {
+  .glass-container{
+    width: 50%;
   }
 }
-
-/* Responsive styles for even smaller screens (e.g., mobile phones) */
-@media only screen and (max-width: 480px) {
-  .glass-container {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 1024px) {
+  .glass-container{
+    padding: 20px;
     width: 100%;
-  }
-  .glass-lang-icon {
-    font-size: 14px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 }
