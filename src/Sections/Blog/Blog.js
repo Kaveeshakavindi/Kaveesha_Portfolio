@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import "./Blog.css";
 import { useInView } from "react-intersection-observer";
 import { MdOutlineArrowOutward } from "react-icons/md";
+
 
 export const Blog = () => {
   const BlogCard = () => {
@@ -28,10 +29,31 @@ export const Blog = () => {
     );
   };
 
+  const sectionRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal'); // Add a class for the reveal effect
+          }
+        });
+      },
+      {
+        threshold: 0.3, // Adjust as needed
+      }
+    );
+
+    observer.observe(sectionRef.current);
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="blog">
       <div className="section-container">
-        <div className="blog-container">
+        <div className="blog-container" ref={sectionRef}>
           <div className="sectionTitle">Writing</div>
 
           <BlogCard />

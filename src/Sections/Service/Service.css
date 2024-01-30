@@ -1,5 +1,16 @@
+
+
+
 .service-container {
   margin: 3rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.service-container.reveal{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .service-cards-container {
@@ -7,7 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(
     2,
-    175px
+    220px
   ); /* Set a fixed height, adjust as needed */
   gap: 5rem;
   justify-content: center;
@@ -45,8 +56,9 @@
   text-align: left;
   line-height: 1.5;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .service-container {
+    margin: 10rem 3rem 3rem 3rem;
     align-items: center;
   }
 
@@ -75,7 +87,7 @@
 }
 @media screen and (max-width: 480px) {
   .service-container {
-    margin: 1rem;
+    margin: 10rem 1rem 1rem 1rem;
     align-items: center;
   }
 

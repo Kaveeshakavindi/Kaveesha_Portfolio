@@ -11,17 +11,17 @@ export const Socials = () => {
     <div className='socials-contents-container'>
       <div className='contents-container'>
         
-      <img src='/images/portfolio1.jpeg' className='contents-image'/>
+      <img src='/images/sdgp.png' className='contents-image'/>
       <div className='contents-text'>Contents:</div>
       <ProgressBar/>
     </div>
 
-    <div className="vertical-navbar">
+    {/* <div className="vertical-navbar">
       <a href="#home"><SlSocialGithub /></a>
       <a href="#about"><SlSocialLinkedin /></a>
       <a href="#services"><SlSocialInstagram /></a>
       <a href="#contact"><SlSocialFacebook /></a>
-    </div>
+    </div> */}
     
     </div>
   )

@@ -8,6 +8,8 @@ import { Service } from "./Sections/Service/Service";
 import CustomCursor from "./Components/CustomCursor/CustomCursor";
 import Footer from "./Components/Footer/Footer";
 import LandingPage from "./Components/LandingPage/LandingPage";
+import {Socials} from "./Components/Socials/Socials";
+
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
         <CustomCursor />
         <div className="custom-cursor"></div>
         <Navbar className="navbar" />  
+        <Socials className="app-socials"/>
         <Home />
         <Service />
         <Work />

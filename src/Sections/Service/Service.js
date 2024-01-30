@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import "./Service.css";
-import { useInView } from "react-intersection-observer";
+
 
 const ServiceCard = ({title, description}) => {
     return (
@@ -14,12 +14,32 @@ const ServiceCard = ({title, description}) => {
   };
 
 export const Service = () => {
+  const sectionRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal'); // Add a class for the reveal effect
+          }
+        });
+      },
+      {
+        threshold: 0.3, // Adjust as needed
+      }
+    );
+
+    observer.observe(sectionRef.current);
+
+    return () => observer.disconnect();
+  }, []);
   
   return (
     
-    <section id="service">
+    <section id="service" >
       <div className="section-container">
-        <div className='service-container'>
+        <div className='service-container' ref={sectionRef}>
             <div className="sectionTitle">Services</div>
           <div className="service-cards-container">
             <ServiceCard title={'Mobile App Development'} description={"I specialize in Mobile App Development, leveraging my expertise in Android Studio, React Native, Flutter, and Xcode. Proficient in JavaScript, TypeScript, and Dart, I bring a diverse skill set to crafting innovative and user-friendly mobile applications. As a Mobile Engineering Intern at Axiata Digital Labs, I've honed my skills in creating seamless and impactful solutions in the dynamic field of mobile development."}/>

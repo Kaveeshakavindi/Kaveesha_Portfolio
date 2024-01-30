@@ -1,13 +1,13 @@
 .blog-container{
-    opacity: 1;
-  
   margin: 3rem;
-
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.blog-container.visible{
-    opacity: 1;
-  transform: translateY(20);
+.blog-container.reveal{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .blog-anchor-tag{

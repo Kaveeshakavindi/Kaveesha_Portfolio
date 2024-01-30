@@ -17,4 +17,8 @@
   }
 
 
- 
+ @media screen and (max-width: 480px) {
+    .loading-gif img{
+      width: 30%;
+    }
+ }

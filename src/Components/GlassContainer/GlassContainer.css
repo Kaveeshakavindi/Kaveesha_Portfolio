@@ -10,9 +10,7 @@
   z-index: -1;
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  
 }
 
 .glass-lang-icon {
@@ -31,9 +29,7 @@
     align-items: center;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -46,7 +42,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
   }
   .glass-lang-icon {
     font-size: 14px;

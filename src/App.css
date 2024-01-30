@@ -33,19 +33,8 @@ section {
   cursor: default;
   align-items: left;
   text-align: left;
-  padding-top: 3rem;
-  
-}
-
-.section-container {
-  
-  
-}
-
-.socials-container {
-  position: fixed;
-  left: 0;
-  top: 500px; /* Adjust as needed */
+  padding-top: 3rem; /*this is def needed*/
+  margin: 0 0 5rem 10rem;
 }
 
 .sectionTitle {
@@ -86,6 +75,10 @@ section {
   top: 145%;
 }
 
+.slide-in {
+  transform: translateX(0) !important;
+}
+
 @media screen and (max-width:1024px) {
   .sectionTitle {
     margin-top: 3rem 0;
@@ -103,6 +96,7 @@ section {
     text-align: left;
     justify-content: center;
   padding-top: 1rem;
+  margin: 0;
   }
   
   .section-container {
@@ -111,5 +105,6 @@ section {
   .sectionTitle {
     margin: 3rem 0rem;
   }
+
   
 }

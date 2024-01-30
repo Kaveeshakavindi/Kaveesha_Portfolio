@@ -2,9 +2,14 @@
 
 .work-section-container {
   margin: 3rem;
-  align-items: center;
-  justify-content: center;
-  
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.work-section-container.reveal{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .timeline {
@@ -33,7 +38,7 @@ a{
   width: 50%;
   margin-bottom: 20px;
 }
-.column-divider {
+/* .column-divider {
   width: 0.1px;
   background-color: var(--main-var-color);
   height: 100%;
@@ -42,7 +47,7 @@ a{
   top: 0;
   bottom: 0;
   opacity: 20%;
-}
+} */
 
 .work-card:hover {
   background-color: rgba(33, 20, 44, 0.539);
@@ -54,7 +59,7 @@ a{
   width: 8rem;
   height: 5rem;
   border-radius: 5px;
-  margin: 0 10px;
+ 
   box-sizing: border-box;
 }
 
@@ -92,6 +97,7 @@ a{
 
 .work-skill-container {
   display: flex;
+  
 }
 
 .work-skill {
@@ -177,5 +183,13 @@ a{
     font-size: 15px;
     margin-top: 10px;
     font-size: 12px;
+  }
+  .work-skill {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #d15cff1a;
+    color: var(--main-var-color);
+    border-radius: 20px;
+    font-size: 10px;
   }
 }

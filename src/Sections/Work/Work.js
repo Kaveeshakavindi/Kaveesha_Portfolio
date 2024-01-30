@@ -1,6 +1,6 @@
 // Work.js
 
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import { useInView } from "react-intersection-observer";
 import "./Work.css";
 import { MdOutlineArrowOutward } from "react-icons/md";
@@ -36,16 +36,32 @@ const WorkCard = ({ title, description, imgUrl, skills,href}) => {
   );
 };
 
-const [ref, inView] = useInView({
-  triggerOnce: true,
-  threshold: 0.5, // Adjust this threshold as needed
-});
+const sectionRef = useRef();
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal'); // Add a class for the reveal effect
+          }
+        });
+      },
+      {
+        threshold: 0.3, // Adjust as needed
+      }
+    );
+
+    observer.observe(sectionRef.current);
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     
-    <section id="work" ref={ref}>
+    <section id="work" >
       <div className="section-container">
-        <div className={`work-section-container ${inView ? "visible" : ""}`}>
+        <div className="work-section-container" ref={sectionRef}>
           <div className="sectionTitle">Projects</div>
           
       

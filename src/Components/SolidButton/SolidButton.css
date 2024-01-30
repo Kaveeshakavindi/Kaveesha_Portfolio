@@ -2,9 +2,10 @@
 
 .solid-button-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
+ 
 }
 .solid-button-container:hover{
   cursor: pointer;
@@ -14,7 +15,6 @@
   font-size: 12px;
   color: white;
   opacity: 70%;
-  font-family: 'Open Sans', sans-serif;
   transition: color 0.3s;
 }
 
