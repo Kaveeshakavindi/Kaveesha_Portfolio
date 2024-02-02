@@ -18,7 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(
     2,
-    220px
+    150px
   ); /* Set a fixed height, adjust as needed */
   gap: 5rem;
   justify-content: center;
