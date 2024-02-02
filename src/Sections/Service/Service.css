@@ -18,7 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(
     2,
-    150px
+    220px
   ); /* Set a fixed height, adjust as needed */
   gap: 5rem;
   justify-content: center;
@@ -56,7 +56,7 @@
 
 .service-description {
   color: rgba(255, 255, 255, 0.519);
-  font-size: 10px;
+  font-size: 14px;
   text-align: left;
   line-height: 1.5;
 }
