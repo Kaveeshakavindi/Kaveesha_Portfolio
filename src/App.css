@@ -15,7 +15,8 @@
   --solid-btn-title: #717171;
   --glass-bg-color: #0088ff13;
   --glass-border-color: #47a9ff;
-  --footer-container: #282828;
+  --footer-container: #182c42;
+  --section-title: #0e405f88;
 
   /*dark colors*/
   --background-dark: #121212;
@@ -31,12 +32,17 @@
   --glass-bg-color-dark: #28282834;
   --glass-border-color-dark: #6abcf76c;
   --skill-container-dark: #6abcf71a;
-  --footer-container-dark: #282828;
+  --footer-container-dark: #151a25;
+  --section-title-dark: #07649f88;
 }
 
 /*dark theme*/
 body {
-  background-color:var(--background-dark);
+  background-color:hsla(0,0%,0%,1);
+  background-image:
+  radial-gradient(at 80% 0%, hsla(202,100%,56%,0.35) 0px, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(217,100%,50%,0.19) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(215,100%,70%,0.54) 0px, transparent 50%);
 }
 .text1{
   color: var(--text-one-dark);
@@ -107,10 +113,22 @@ body {
 .footer-container{
   background-color: var(--footer-container-dark);
 }
+.sectionTitle{
+  color: var(--section-title-dark);
+  border-top: solid 1px var(--section-title-dark);
+}
 
 /*light theme*/
 .light {
-  background-color: var(--background-light);
+  background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 80% 0%, hsla(202,100%,56%,0.35) 0px, transparent 50%),
+radial-gradient(at 0% 50%, hsla(217,100%,50%,0.19) 0px, transparent 50%),
+radial-gradient(at 80% 100%, hsla(215,100%,70%,0.54) 0px, transparent 50%);
+}
+.light .sectionTitle{
+  color: var(--section-title);
+  border-top: solid 1px var(--section-title);
 }
 
 .light .text1{
@@ -202,13 +220,11 @@ section {
 }
 
 .sectionTitle {
-  color: white;
   font-size: 20px;
   font-weight: bold;
   padding: 10px 0;
   width: 100%;
   text-align: left;
-  border-top: solid rgba(255, 255, 255, 0.268) 0.1px;
   margin: 3rem 0rem;
 }
 
