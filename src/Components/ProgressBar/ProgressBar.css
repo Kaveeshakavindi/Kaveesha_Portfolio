@@ -3,7 +3,7 @@
 .progress-bar {
     border-radius: 20px;
     height: 5px; /* Adjust the height as needed */
-    background-color: rgba(255, 255, 255, 0.145); /* White with 50% opacity */
+    background-color: #6abcf727
   }
   
   .progress-fill {

@@ -1,20 +1,184 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
-  --color-title-hover: rgb(243, 133, 255);
-  --main-var-color: rgb(253, 146, 217);
+  --color-title-hover: #0095ff;
+  --main-var-color: #0095ff;
+  --background-light: #ffffff;
+  --text-one-light: #0095ff;
+  --text-two-light: #717171;
+  --text-three-light: #47a9ff;
+  --glass-text1-light: #0095ff;
+  --glass-text2-light: #717171;
+  --cursor-circle-light: #64beff;
+  --logo-color: #0095ff;
+  --icon-color: #717171;
+  --solid-btn-title: #717171;
+  --glass-bg-color: #0088ff13;
+  --glass-border-color: #47a9ff;
+  --footer-container: #282828;
+
+  /*dark colors*/
+  --background-dark: #121212;
+  --glass-text1-dark: #ffffff;
+  --glass-text2-dark: #ffffff84;
+  --text-one-dark: #9bcefa;
+  --text-two-dark: #717171;
+  --text-three-dark: #6abcf7;
+  --cursor-circle-dark: #6abcf76c;
+  --logo-color-dark: #6abcf7;
+  --icon-color-dark: #717171;
+  --solid-btn-title-dark: #717171;
+  --glass-bg-color-dark: #28282834;
+  --glass-border-color-dark: #6abcf76c;
+  --skill-container-dark: #6abcf71a;
+  --footer-container-dark: #282828;
 }
 
+/*dark theme*/
 body {
-  background-color:rgb(22, 11, 27);
-/* background-image:
-radial-gradient(at 40% 20%, hsla(264,61%,32%,1) 0px, transparent 50%),
-radial-gradient(at 80% 0%, hsla(257,58%,28%,1) 0px, transparent 50%),
-radial-gradient(at 0% 50%, hsla(266,80%,29%,1) 0px, transparent 50%),
-radial-gradient(at 80% 50%, hsla(340,0%,0%,1) 0px, transparent 50%),
-radial-gradient(at 0% 100%, hsla(274,89%,44%,1) 0px, transparent 50%),
-radial-gradient(at 80% 100%, hsla(240,0%,0%,1) 0px, transparent 50%); */
+  background-color:var(--background-dark);
 }
+.text1{
+  color: var(--text-one-dark);
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.text2{
+  color: var(--text-two-dark);
+  font-size: 15px;
+}
+.text3{
+  color: var(--text-three-dark);
+}
+.glass-text1{
+  color: var(--glass-text1-dark);
+  font-size: 15px;
+}
+.glass-text2{
+  color: var(--glass-text2-dark);
+  font-size: 13px;
+  margin-top: 1rem;
+}
+
+.cursor-circle{
+  background-color:var(--cursor-circle-dark);
+}
+
+.logo-name{
+  color: var(--logo-color);
+}
+
+.contact-li a{
+  color: var(--icon-color-dark);
+}
+.solid-button-title{
+  color: var(--solid-btn-title-dark);
+}
+.glass-lang-icon{
+  color: var(--text-two-dark);
+}
+.glass-lang-icon:hover{
+  color: var(--text-one-dark);
+}
+.service-card{
+  border: solid 0.01px var(--glass-border-color-dark);
+  background-color: var(--glass-bg-color-dark);
+}
+.service-card:hover{
+  border: solid 0.01px var(--glass-border-color-dark);
+  background-color: var(--glass-bg-color-dark);
+}
+.glass-container{
+  border: solid 0.01px var(--glass-border-color-dark);
+  background-color: var(--glass-bg-color-dark);
+}
+.work-card:hover{
+  background-color: var(--glass-bg-color-dark);
+}
+.work-skill{
+  color: var(--text-three-dark);
+  background-color: var(--skill-container-dark);
+}
+.blog-card-container:hover{
+  background-color: var(--glass-bg-color-dark);
+}
+.footer-container{
+  background-color: var(--footer-container-dark);
+}
+
+/*light theme*/
+.light {
+  background-color: var(--background-light);
+}
+
+.light .text1{
+  color: var(--text-one-light);
+}
+
+.light .text2{
+  color: var(--text-two-light);
+}
+
+.light .text3{
+  color: var(--text-three-light);
+}
+.light .glass-text1{
+  color: var(--glass-text1-light);
+}
+
+.light .glass-text2{
+  color: var(--glass-text2-light);
+}
+
+.light .cursor-circle{
+  background-color: var(--cursor-circle-light);
+}
+.light .logo-name{
+  color: var(--logo-color);
+}
+
+.light .contact-li a{
+  color: var(--icon-color);
+}
+.light .solid-button-title{
+  color: var(--solid-btn-title);
+}
+.light .glass-lang-icon{
+  color: var(--text-two-light);
+}
+.light .glass-lang-icon:hover{
+  color: var(--text-one-light);
+}
+.light .service-card{
+  border: solid 0.01px var(--glass-border-color);
+  background-color: var(--glass-bg-color);
+}
+.light .service-card:hover{
+  border: solid 0.01px var(--glass-border-color);
+  background-color: var(--glass-bg-color);
+}
+.light .glass-container{
+  border: solid 0.01px var(--glass-border-color);
+  background-color: var(--glass-bg-color);
+}
+.light .work-card:hover{
+  background-color: var(--glass-bg-color);
+}
+.light .work-skill{
+  color: var(--text-three-light);
+  background-color: var(--glass-bg-color);
+}
+.light .blog-card-container:hover{
+  background-color: var(--glass-bg-color);
+}
+.light .footer-container{
+  background-color: var(--footer-container);
+}
+
+/*other*/
+
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 0%;

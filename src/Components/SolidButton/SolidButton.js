@@ -11,7 +11,7 @@ export const SolidButton = ({onClick}) => {
       
       <div className="solid-button-container" onClick={onClick}>
         <div className="download-icon-container">
-          <FiDownload className="download-icon" />
+          <FiDownload className="download-icon" color="#51333195"/>
         </div>
         <div className="solid-button-title">Download Resume</div>
         

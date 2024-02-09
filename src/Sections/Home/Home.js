@@ -35,13 +35,13 @@ export const Home = () => {
     <section id="home">
       <div className="home-container" ref={sectionRef}>
         <div className="home-about">
-          <div className="home-about-p" ref={sectionRef}>From captivating</div>
-          <div className="home-about-h3">
+          <div className="text3" ref={sectionRef}>From captivating</div>
+          <div className="text2">
             UI Designs to Full-Stack Development,
           </div>
-          <div className="home-about-h1">Hi! I'm Kaveesha Fernando.</div>
-          <div className="home-about-p2" ref={sectionRef}>
-          Specializing in the creation of exceptional digital experiences, the emphasis is placed on the development of APIs and the seamless integration of various components. Proficient in both the construction and occasional design of <span className='home-span'>innovative solutions.</span>
+          <div className="text1">Hi! I'm Kaveesha Fernando.</div>
+          <div className="text2" ref={sectionRef}>
+          Specializing in the creation of exceptional digital experiences, the emphasis is placed on the development of APIs and the seamless integration of various components. Proficient in both the construction and occasional design of <span className='text3'>innovative solutions.</span>
           </div>
           <div className="home-components-container">
             <SolidButton onClick={handleDownloadClick}/>

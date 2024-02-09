@@ -18,7 +18,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(
     2,
-    220px
+    250px
   ); /* Set a fixed height, adjust as needed */
   gap: 5rem;
   justify-content: center;
@@ -27,13 +27,11 @@
 }
 
 .service-card {
-  background-color: #ffffff17;
   backdrop-filter: blur(10px);
   padding: 20px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: solid 0.01px rgba(255, 255, 255, 0.227);
   margin-bottom: 2rem;
   transition: transform 0.5s ;
   height: 100%;
@@ -41,25 +39,9 @@
 
 .service-card:hover {
   transform: scale(1.1);
-  background-color: rgba(255, 131, 197, 0.103);
-  border: solid 0.01px rgb(255, 131, 197)
 }
 
-.service-title {
-  color: rgba(255, 255, 255, 0.834);
-  font-size: 18px;
-  margin: 10px 0;
-  text-align: left;
-  font-weight: bold;
 
-}
-
-.service-description {
-  color: rgba(255, 255, 255, 0.519);
-  font-size: 14px;
-  text-align: left;
-  line-height: 1.5;
-}
 @media screen and (max-width: 1100px) {
   .service-container {
     margin: 10rem 3rem 3rem 3rem;

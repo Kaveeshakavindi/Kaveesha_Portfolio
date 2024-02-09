@@ -17,12 +17,12 @@ export const Blog = () => {
             />
           </div>
           <div className="blog-card-text">
-            <div className="blog-card-year">2024</div>
-            <div className="blog-card-title">
+            <div className="text3">2024</div>
+            <div className="text3" style={{fontWeight: 'bold'}}>
               Building a RESTful Task Manager API with Node, Express and MongoDB
               in 4 steps
             </div>
-            <MdOutlineArrowOutward className="blog-card-arrow" />
+            <MdOutlineArrowOutward className="text3" />
           </div>
         </div>
       </a>
