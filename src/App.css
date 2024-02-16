@@ -3,10 +3,25 @@
 :root {
   --color-title-hover: rgb(243, 133, 255);
   --main-var-color: rgb(253, 146, 217);
+  --color-bg: rgba(255, 255, 255, 0.873);
+  --color-1:rgb(0, 0, 0);
+  --color-2: rgb(73, 73, 73);;
+  --color-3: rgb(163, 0, 109);
+  --glass-bg: rgba(255, 0, 170, 0.073);
+  --glass-icon: #0000006c;
+}
+
+.dark-mode{
+  --color-bg: rgb(22, 11, 27);
+   --color-1:rgb(202, 200, 202);
+  --color-2: rgb(149, 125, 151);;
+  --color-3: rgb(253, 146, 217);
+  --glass-bg: rgba(163, 0, 109, 0.086);
+  --glass-icon: #ffffffa3;
 }
 
 body {
-  background-color:rgb(22, 11, 27);
+  background-color: var(--color-bg);
 /* background-image:
 radial-gradient(at 40% 20%, hsla(264,61%,32%,1) 0px, transparent 50%),
 radial-gradient(at 80% 0%, hsla(257,58%,28%,1) 0px, transparent 50%),
@@ -38,7 +53,7 @@ section {
 }
 
 .sectionTitle {
-  color: white;
+  color: var(--color-1);
   font-size: 20px;
   font-weight: bold;
   padding: 10px 0;

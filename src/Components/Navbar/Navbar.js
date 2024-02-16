@@ -7,8 +7,21 @@ import { SlSocialGithub } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import { SlSocialBehance } from "react-icons/sl";
+import ToggleButton from "../ToggleButton/ToggleButton";
 
 export const Navbar = () => {
+  const handleToggle = (isChecked) => {
+    const body = document.body;
+  
+    if (isChecked) {
+        body.classList.add('dark-mode');
+        localStorage.setItem('darkMode', 'true');
+    } else {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('darkMode', 'false');
+    }
+};
+
   const [activeNav, setActiveNav] = useState("#");
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -60,6 +73,9 @@ export const Navbar = () => {
               <a href="https://www.linkedin.com/in/kaveesha-fernando-b94301224">
                 <SlSocialLinkedin />
               </a>
+            </li>
+            <li>
+            <ToggleButton onToggle={handleToggle} />
             </li>
           </ul>
         </div>

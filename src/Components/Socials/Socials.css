@@ -6,6 +6,7 @@
     overflow-x: hidden;
     padding-top: 20px;
     cursor: pointer;
+    color: var(--color-2);
   }
   
   .vertical-navbar a {
@@ -18,7 +19,7 @@
   }
   
   .vertical-navbar a:hover {
-    color: #f1f1f1;
+    color: var(--color-2);
   }
   
   .socials-contents-container{
@@ -42,7 +43,7 @@
   }
 
   .contents-text{
-    color: white;
+    color: var(--color-2);;
     opacity: 50%;
     font-size: 12px;
     padding: 10px 0 10px 0;

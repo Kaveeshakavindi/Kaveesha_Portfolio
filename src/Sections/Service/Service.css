@@ -27,13 +27,13 @@
 }
 
 .service-card {
-  background-color: #ffffff17;
+  background-color: var(--glass-bg);
   backdrop-filter: blur(10px);
   padding: 20px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: solid 0.01px rgba(255, 255, 255, 0.227);
+  border: solid 0.01px var(--color-3);
   margin-bottom: 2rem;
   transition: transform 0.5s ;
   height: 100%;
@@ -42,11 +42,11 @@
 .service-card:hover {
   transform: scale(1.1);
   background-color: rgba(255, 131, 197, 0.103);
-  border: solid 0.01px rgb(255, 131, 197)
+  border: solid 0.01px var(--color-3)
 }
 
 .service-title {
-  color: rgba(255, 255, 255, 0.834);
+  color: var(--color-3);
   font-size: 18px;
   margin: 10px 0;
   text-align: left;
@@ -55,7 +55,7 @@
 }
 
 .service-description {
-  color: rgba(255, 255, 255, 0.519);
+  color: var(--color-2);
   font-size: 14px;
   text-align: left;
   line-height: 1.5;
@@ -76,13 +76,12 @@
     margin: 2rem;
   }
   .service-card {
-    background-color: #ffffff17;
+    
     backdrop-filter: blur(10px);
     padding: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: solid 0.01px rgba(255, 255, 255, 0.227);
     margin-bottom: 0;
     transition: transform 0.5s;
     height: 100%;
@@ -105,13 +104,13 @@
     margin: 2rem;
   }
   .service-card {
-    background-color: #ffffff17;
+    
     backdrop-filter: blur(10px);
     padding: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: solid 0.01px rgba(255, 255, 255, 0.227);
+  
     margin-bottom: 0;
     transition: transform 0.5s;
     height: 100%;

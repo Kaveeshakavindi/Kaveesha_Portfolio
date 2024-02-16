@@ -2,6 +2,12 @@
   padding: 5rem 5rem 0 5rem;
   height: 90vh;
   align-items: center;
+  position: relative;
+}
+.blob {
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(217, 56, 56);
 }
 
 .home-about {
@@ -14,33 +20,34 @@
 .home-about-h1 {
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 2rem;
-  color: rgb(202, 200, 202)
+  margin-bottom: 1rem;
+  color: var(--color-1);
+  line-height: 1;
 }
 
 .home-about-h3 {
-  font-size: 50px;
-  font-weight: bold;
-  color: rgb(103, 89, 104);
-  margin-top: 2rem;
+  font-size: 20;
+  color: var(--color-2);
+  margin: 1rem 0;
+  line-height: 1;
 }
 
 .home-about-p {
-  color: var(--main-var-color);
+  color: var(--color-3);
 }
 
 .home-about-p2 {
-  color: rgb(103, 89, 104);
+  color: var(--color-2);
   width: 75%;
 }
 
-.home-span{
-  color: var(--main-var-color);
+.home-span {
+  color: var(--color-3);
 }
 
 .home-components-container {
   margin-top: 2rem;
- width: 90%;
+  width: 90%;
 }
 
 /*reponsive*/
@@ -59,14 +66,6 @@
     width: 100%;
     color: white;
   }
-
-  .home-about-h1 {
-    font-size: 40px;
-  }
-
-  .home-about-h3 {
-    font-size: 40px;
-  }
 }
 
 /* Responsive styles for even smaller screens (e.g., mobile phones) */
@@ -82,7 +81,6 @@
   }
   .home-about-h1 {
     font-size: 30px;
-  
   }
 
   .home-about-h3 {
@@ -97,6 +95,5 @@
   }
   .home-components-container {
     margin-top: 1rem;
-    
   }
 }

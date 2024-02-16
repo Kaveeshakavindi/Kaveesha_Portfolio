@@ -74,7 +74,7 @@ const sectionRef = useRef();
                 "A sleek portfolio website showcasing creativity and skills, crafted with React.js."
                 
               }
-              imgUrl={"./images/portfolio.png"}
+              imgUrl={'/images/portfolio.png'}
               skills={["React", "JavaScript", "CSS" ]}
               href={'"https://github.com/Kaveeshakavindi/Kaveesha_Portfolio.git"'}
             />

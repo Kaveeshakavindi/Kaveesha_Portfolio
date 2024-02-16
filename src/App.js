@@ -24,21 +24,24 @@ function App() {
   
   return (
     <div className="App">
-      {isLoading ? (
+      
+      {/* {isLoading ? (
         <LandingPage />
-      ) : (
+      ) : ( */}
         <div>
         <CustomCursor />
         <div className="custom-cursor"></div>
         <Navbar className="navbar" />  
         <Socials className="app-socials"/>
         <Home />
+        
         <Service />
         <Work />
+
         <Blog />
         <Footer/>
         </div>
-      )}
+      {/* )} */}
     </div>
   );
 }
