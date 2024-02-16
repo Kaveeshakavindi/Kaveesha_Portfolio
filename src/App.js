@@ -25,9 +25,9 @@ function App() {
   return (
     <div className="App">
       
-      {/* {isLoading ? (
+      {isLoading ? (
         <LandingPage />
-      ) : ( */}
+      ) : (
         <div>
         <CustomCursor />
         <div className="custom-cursor"></div>
@@ -41,7 +41,7 @@ function App() {
         <Blog />
         <Footer/>
         </div>
-      {/* )} */}
+      )} 
     </div>
   );
 }
