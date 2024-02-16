@@ -9,15 +9,9 @@ import CustomCursor from "./Components/CustomCursor/CustomCursor";
 import Footer from "./Components/Footer/Footer";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import {Socials} from "./Components/Socials/Socials";
-import ThemeToggle from './Components/ThemeToggle/ThemeToggle';
-import {ThemeProvider, useTheme } from './ThemeContext';
 
 
 function App() {
-  const { theme, toggleTheme } = useTheme();
-
-
-  
 
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -29,30 +23,25 @@ function App() {
 
   
   return (
-    <div className={`App ${theme}`}>
-      {/* {isLoading ? (
+    <div className="App">
+      {isLoading ? (
         <LandingPage />
-      ) : ( */}
+      ) : (
         <div>
         <CustomCursor />
         <div className="custom-cursor"></div>
         <Navbar className="navbar" />  
         <Socials className="app-socials"/>
         <Home />
-        <ThemeToggle toggleTheme={toggleTheme}/>
         <Service />
         <Work />
         <Blog />
         <Footer/>
         </div>
-      {/* )} */}
+      )}
     </div>
   );
 }
-const Content = () => {
-  const { theme } = useTheme();
 
-  return <div className={`content ${theme}`}>This is the content</div>;
-};
 
 export default App;

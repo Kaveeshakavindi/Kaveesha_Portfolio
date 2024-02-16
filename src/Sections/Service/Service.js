@@ -5,8 +5,8 @@ import "./Service.css";
 const ServiceCard = ({title, description}) => {
     return (
       <div className="service-card">
-        <div className="glass-text1">{title}</div>
-        <div className="glass-text2">
+        <div className="service-title">{title}</div>
+        <div className="service-description">
           {description}
         </div>
       </div>

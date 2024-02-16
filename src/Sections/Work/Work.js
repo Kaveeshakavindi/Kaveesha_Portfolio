@@ -19,10 +19,10 @@ const WorkCard = ({ title, description, imgUrl, skills,href}) => {
       </div>
       <div className="work-card-text">
         <div className="work-card-title-container">
-          <div className="text3" style={{fontWeight: 'bold', marginBottom: 10}}>{title}</div>
+          <div className="work-card-title">{title}</div>
           <MdOutlineArrowOutward className="work-card-arrow" />
         </div>
-        <div className="text2">{description}</div>
+        <div className="work-card-description">{description}</div>
         <div className="work-skill-container">
           {skills.map((skill, index) => (
             <div key={index} className="work-skill">

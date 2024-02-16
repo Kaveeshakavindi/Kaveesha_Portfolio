@@ -5,7 +5,6 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { SlSocialInstagram } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
 import ProgressBar from '../ProgressBar/ProgressBar';
-import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 export const Socials = () => {
   return (
@@ -15,7 +14,6 @@ export const Socials = () => {
       <img src='./images/sdgp.png' className='contents-image'/>
       <div className='contents-text'>Contents:</div>
       <ProgressBar/>
-      
     </div>
 
     {/* <div className="vertical-navbar">
