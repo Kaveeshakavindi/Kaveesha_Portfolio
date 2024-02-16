@@ -186,6 +186,7 @@ a{
   .work-skill {
     margin: 5px;
     padding: 5px 10px;
+    background-color: #d15cff1a;
     color: var(--main-var-color);
     border-radius: 20px;
     font-size: 10px;
