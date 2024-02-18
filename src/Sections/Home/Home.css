@@ -1,20 +1,19 @@
 .home-container {
-  padding: 5rem 5rem 0 5rem;
+  padding: 0rem 5rem 0 5rem;
   height: 90vh;
   align-items: center;
+  justify-content: center;
   position: relative;
-}
-.blob {
-  z-index: -1;
-  position: absolute;
-  background-color: rgb(217, 56, 56);
 }
 
 .home-about {
-  align-items: center;
+  display: flex; /* Add this line */
+  flex-direction: column;
   text-align: left;
   width: 60%;
   color: white;
+  height: 100%;
+  justify-content: center;
 }
 
 .home-about-h1 {

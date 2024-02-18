@@ -170,13 +170,13 @@ a{
   }
 
   .work-card-title {
-    color: rgba(255, 255, 255, 0.853);
+  
     margin-right: 5px;
     font-size: 12px;
   }
 
   .work-card-description {
-    color: rgba(255, 255, 255, 0.506);
+   
     font-size: 15px;
     margin-top: 10px;
     font-size: 12px;
@@ -184,8 +184,7 @@ a{
   .work-skill {
     margin: 5px;
     padding: 5px 10px;
-    background-color: #d15cff1a;
-    color: var(--main-var-color);
+   
     border-radius: 20px;
     font-size: 10px;
   }

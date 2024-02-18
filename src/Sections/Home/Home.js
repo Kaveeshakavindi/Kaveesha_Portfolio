@@ -3,6 +3,7 @@ import "./Home.css";
 import { SolidButton } from "../../Components/SolidButton/SolidButton";
 import GlassContainer from "../../Components/GlassContainer/GlassContainer";
 import ToggleButton from "../../Components/ToggleButton/ToggleButton";
+import Stack from "../../Components/stack/Stack";
 
 export const Home = () => {
   const handleDownloadClick = () => {
@@ -54,8 +55,10 @@ export const Home = () => {
           <div className="home-components-container">
             <SolidButton onClick={handleDownloadClick} />
             <GlassContainer />
+            
           </div>
         </div>
+        {/* <Stack/> */}
       </div>
     </section>
   );
