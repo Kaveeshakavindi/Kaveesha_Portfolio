@@ -33,8 +33,10 @@ export const Home = () => {
   }, []);
 
   return (
+  
     <section id="home">
       <div className="home-container" ref={sectionRef}>
+        
         
         <div className="home-about">
           <div className="home-about-p" ref={sectionRef}>
@@ -59,7 +61,8 @@ export const Home = () => {
           </div>
         </div>
         {/* <Stack/> */}
-      </div>
+        </div>
+      
     </section>
   );
 };

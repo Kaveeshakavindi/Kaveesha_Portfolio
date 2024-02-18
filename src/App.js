@@ -33,8 +33,9 @@ function App() {
         <div className="custom-cursor"></div>
         <Navbar className="navbar" />  
         <Socials className="app-socials"/>
+        <div className='home-bg'>
         <Home />
-        
+        </div>
         <Service />
         <Work />
 
