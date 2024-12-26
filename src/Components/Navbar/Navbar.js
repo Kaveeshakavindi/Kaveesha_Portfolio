@@ -12,7 +12,6 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 export const Navbar = () => {
   const handleToggle = (isChecked) => {
     const body = document.body;
-
     if (isChecked) {
       body.classList.remove('dark-mode');
       localStorage.setItem('darkmode', 'false');
@@ -25,23 +24,18 @@ export const Navbar = () => {
       localStorage.setItem('darkMode', 'true');
     }
   };
-
   const [activeNav, setActiveNav] = useState("#");
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       setIsScrolled(scrollTop > 10);
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   return (
     <BrowserRouter>
       <div className={`nav-container ${isScrolled ? "scrolled" : ""}`}>
@@ -55,7 +49,6 @@ export const Navbar = () => {
             </div>
           </a>
         </div>
-
         <div className="contacts-container">
           <ul className="contact-ul">
             <li className="contact-li">
