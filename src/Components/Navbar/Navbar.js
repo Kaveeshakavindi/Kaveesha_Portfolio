@@ -12,15 +12,19 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 export const Navbar = () => {
   const handleToggle = (isChecked) => {
     const body = document.body;
-  
+
     if (isChecked) {
-        body.classList.add('dark-mode');
-        localStorage.setItem('darkMode', 'true');
+      body.classList.remove('dark-mode');
+      localStorage.setItem('darkmode', 'false');
+      body.classList.add('light-mode');
+      localStorage.setItem('lightmode', 'true');
     } else {
-        body.classList.remove('dark-mode');
-        localStorage.setItem('darkMode', 'false');
+      body.classList.remove('light-mode');
+      localStorage.setItem('lightmode', 'false');
+      body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'true');
     }
-};
+  };
 
   const [activeNav, setActiveNav] = useState("#");
   const [isScrolled, setIsScrolled] = useState(false);
@@ -75,7 +79,7 @@ export const Navbar = () => {
               </a>
             </li>
             <li>
-            <ToggleButton onToggle={handleToggle} />
+              <ToggleButton onToggle={handleToggle} />
             </li>
           </ul>
         </div>

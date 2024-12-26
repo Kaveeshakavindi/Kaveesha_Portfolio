@@ -18,12 +18,12 @@ export const Home = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("reveal"); // Add a class for the reveal effect
+            entry.target.classList.add("reveal"); 
           }
         });
       },
       {
-        threshold: 0.3, // Adjust as needed
+        threshold: 0.3,
       }
     );
 
@@ -36,8 +36,6 @@ export const Home = () => {
   
     <section id="home">
       <div className="home-container" ref={sectionRef}>
-        
-        
         <div className="home-about">
           <div className="home-about-p" ref={sectionRef}>
             From captivating
@@ -45,7 +43,6 @@ export const Home = () => {
           <div className="home-about-h3">
             UI Designs to Full-Stack Development,
           </div>
-
           <div className="home-about-h1">Hi! I'm Kaveesha Fernando.</div>
           <div className="home-about-p2" ref={sectionRef}>
             Specializing in the creation of exceptional digital experiences, the
@@ -57,7 +54,6 @@ export const Home = () => {
           <div className="home-components-container">
             <SolidButton onClick={handleDownloadClick} />
             <GlassContainer />
-            
           </div>
         </div>
         {/* <Stack/> */}
