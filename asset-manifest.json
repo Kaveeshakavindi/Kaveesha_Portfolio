@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Kaveesha_Portfolio/static/css/main.bbb496d2.css",
+    "main.js": "/Kaveesha_Portfolio/static/js/main.8575848a.js",
+    "static/media/p2.png": "/Kaveesha_Portfolio/static/media/p2.bddb5a24f30f5323431f.png",
+    "static/media/p1.png": "/Kaveesha_Portfolio/static/media/p1.c1231b4b0b2d9d0495ad.png",
+    "static/media/p1-2.png": "/Kaveesha_Portfolio/static/media/p1-2.af2ea8d5121e23b360e0.png",
+    "static/media/p2-2.png": "/Kaveesha_Portfolio/static/media/p2-2.64293d580b9284f35f63.png",
+    "static/media/budget.png": "/Kaveesha_Portfolio/static/media/budget.5cf2372e57552dac2f94.png",
+    "static/media/skills.png": "/Kaveesha_Portfolio/static/media/skills.7d3bdb71f83042566d0e.png",
+    "index.html": "/Kaveesha_Portfolio/index.html",
+    "main.bbb496d2.css.map": "/Kaveesha_Portfolio/static/css/main.bbb496d2.css.map",
+    "main.8575848a.js.map": "/Kaveesha_Portfolio/static/js/main.8575848a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbb496d2.css",
+    "static/js/main.8575848a.js"
+  ]
+}
