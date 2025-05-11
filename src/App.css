@@ -4,29 +4,35 @@
   --color-title-hover: rgb(243, 133, 255);
   --main-var-color: rgb(253, 146, 217);
   --color-bg: rgb(22, 11, 27);
-   --color-1:rgb(202, 200, 202);
-  --color-2: rgb(149, 125, 151);;
-  --color-3: rgb(253, 146, 217);
-  --glass-bg: rgba(163, 0, 109, 0.086);
+  --color-1: rgb(103, 35, 103);
+  --color-2: rgb(149, 125, 151);
+  --color-3: rgb(255, 174, 228);
+  --glass-bg: rgba(141, 92, 125, 0.086);
   --glass-icon: #ffffffa3;
+  --true-color: rgb(255, 255, 255);
+  --stroke-color: rgba(255, 174, 228, 0.475);
 }
 
-.light-mode{
+.light-mode {
   --color-bg: rgba(255, 255, 255, 0.873);
-  --color-1:rgb(0, 0, 0);
-  --color-2: rgb(73, 73, 73);;
+  --color-1: rgb(0, 0, 0);
+  --color-2: rgb(73, 73, 73);
   --color-3: rgb(163, 0, 109);
   --glass-bg: rgba(255, 0, 170, 0.073);
   --glass-icon: #0000006c;
+  --true-color: rgb(0, 0, 0);
+  --stroke-color: #a3006d87;
 }
 
-.dark-mode{
+.dark-mode {
   --color-bg: rgb(22, 11, 27);
-   --color-1:rgb(202, 200, 202);
-  --color-2: rgb(149, 125, 151);;
-  --color-3: rgb(253, 146, 217);
-  --glass-bg: rgba(163, 0, 109, 0.086);
+  --color-1: rgb(103, 35, 103);
+  --color-2: rgb(149, 125, 151);
+  --color-3: rgb(255, 174, 228);
+  --glass-bg: rgba(141, 92, 125, 0.086);
   --glass-icon: #ffffffa3;
+  --true-color: rgb(255, 255, 255);
+  --stroke-color: rgba(255, 174, 228, 0.475);
 }
 
 body {
@@ -49,26 +55,25 @@ body {
   background-position: 0 0, 10px 10px;
   z-index: -1;
 }
-.App{
+.App {
   display: flex;
   flex-direction: column;
 }
 section {
-  height:fit-content ;
+  height: fit-content;
   cursor: default;
   align-items: left;
   text-align: left;
   padding-top: 3rem; /*this is def needed*/
-  margin: 0 0 5rem 10rem;
 }
 .sectionTitle {
-  color: var(--color-1);
+  color: var(--color-3);
   font-size: 20px;
   font-weight: bold;
   padding: 10px 0;
   width: 100%;
   text-align: left;
-  border-top: solid rgba(255, 255, 255, 0.268) 0.1px;
+  border-top: solid var(--stroke-color) 0.1px;
   margin: 3rem 0rem;
 }
 .holo-img1 {
@@ -97,22 +102,20 @@ section {
 .slide-in {
   transform: translateX(0) !important;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .sectionTitle {
     margin-top: 3rem 0;
-
-   
   }
 }
 @media screen and (max-width: 480px) {
   section {
-    height:fit-content ;
+    height: fit-content;
     cursor: default;
     align-items: center;
     text-align: left;
     justify-content: center;
-  padding-top: 1rem;
-  margin: 0;
+    padding-top: 1rem;
+    margin: 0;
   }
   .section-container {
     padding: 0;
@@ -120,5 +123,4 @@ section {
   .sectionTitle {
     margin: 3rem 0rem;
   }
-
 }

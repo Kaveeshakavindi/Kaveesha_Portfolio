@@ -13,15 +13,15 @@ export const Navbar = () => {
   const handleToggle = (isChecked) => {
     const body = document.body;
     if (isChecked) {
-      body.classList.remove('dark-mode');
-      localStorage.setItem('darkmode', 'false');
-      body.classList.add('light-mode');
-      localStorage.setItem('lightmode', 'true');
+      body.classList.remove("dark-mode");
+      localStorage.setItem("darkmode", "false");
+      body.classList.add("light-mode");
+      localStorage.setItem("lightmode", "true");
     } else {
-      body.classList.remove('light-mode');
-      localStorage.setItem('lightmode', 'false');
-      body.classList.add('dark-mode');
-      localStorage.setItem('darkMode', 'true');
+      body.classList.remove("light-mode");
+      localStorage.setItem("lightmode", "false");
+      body.classList.add("dark-mode");
+      localStorage.setItem("darkMode", "true");
     }
   };
   const [activeNav, setActiveNav] = useState("#");
@@ -41,12 +41,10 @@ export const Navbar = () => {
       <div className={`nav-container ${isScrolled ? "scrolled" : ""}`}>
         <div className="logo">
           <a href="#home" className="logo-name">
-            Kaveesha
+            #1
           </a>
-          <a href="#home">
-            <div className="sonar-container">
-              <SonarWave />
-            </div>
+          <a href="#home" className="logo-name">
+            Kaveesha
           </a>
         </div>
         <div className="contacts-container">
@@ -54,11 +52,6 @@ export const Navbar = () => {
             <li className="contact-li">
               <a href="https://www.behance.net/kaveeshfernand">
                 <SlSocialBehance />
-              </a>
-            </li>
-            <li className="contact-li">
-              <a href="https://www.facebook.com/kaveesha.fernando.104855/">
-                <SlSocialFacebook />
               </a>
             </li>
             <li className="contact-li">

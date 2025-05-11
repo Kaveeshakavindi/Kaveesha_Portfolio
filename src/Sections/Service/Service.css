@@ -1,14 +1,9 @@
-
-
-
 .service-container {
   margin: 3rem;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.service-container.reveal{
+.service-container.reveal {
   opacity: 1;
   transform: translateY(0);
 }
@@ -16,14 +11,16 @@
 .service-cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(
-    2,
-    220px
-  ); /* Set a fixed height, adjust as needed */
+  grid-template-rows: repeat(2, 320px);
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  
+}
+
+.service-id {
+  color: var(--color-3);
+  font-size: 15px;
+  padding: 2rem 0 0 0;
 }
 
 .service-card {
@@ -33,16 +30,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: solid 0.01px var(--color-3);
   margin-bottom: 2rem;
-  transition: transform 0.5s ;
+  transition: transform 0.5s;
   height: 100%;
 }
 
 .service-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   background-color: rgba(255, 131, 197, 0.103);
-  border: solid 0.01px var(--color-3)
+  border: solid 0.01px var(--stroke-color);
 }
 
 .service-title {
@@ -51,7 +47,6 @@
   margin: 10px 0;
   text-align: left;
   font-weight: bold;
-
 }
 
 .service-description {
@@ -76,7 +71,6 @@
     margin: 2rem;
   }
   .service-card {
-    
     backdrop-filter: blur(10px);
     padding: 20px;
     justify-content: center;
@@ -104,13 +98,12 @@
     margin: 2rem;
   }
   .service-card {
-    
     backdrop-filter: blur(10px);
     padding: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-  
+
     margin-bottom: 0;
     transition: transform 0.5s;
     height: 100%;

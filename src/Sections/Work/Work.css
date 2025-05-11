@@ -3,29 +3,15 @@
 .work-section-container {
   margin: 3rem;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
-
-.work-section-container.reveal{
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .timeline {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
   gap: 10px;
 }
 
-.work-grid-row {
-  display: flex;
-  gap: 10px;
-  position: relative;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-a{
+a {
   text-decoration: none;
 }
 
@@ -63,7 +49,6 @@ a{
   border: solid 2px transparent;
 }
 
-
 .work-card-image:hover {
   border: solid 2px rgba(255, 255, 255, 0.336);
 }
@@ -85,7 +70,6 @@ a{
   transform: translateX(2px);
 }
 
-
 .work-card-description {
   color: var(--color-2);
   font-size: 15px;
@@ -94,7 +78,6 @@ a{
 
 .work-skill-container {
   display: flex;
-  
 }
 
 .work-skill {
@@ -106,14 +89,13 @@ a{
   font-size: 12px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .column-divider {
     visibility: hidden;
   }
 
   .timeline {
     flex-direction: column;
-   
   }
 
   .work-grid-row {
@@ -121,7 +103,7 @@ a{
     gap: 0px;
     position: relative;
   }
-  .work-card{
+  .work-card {
     width: 100%;
   }
 }
@@ -170,13 +152,11 @@ a{
   }
 
   .work-card-title {
-  
     margin-right: 5px;
     font-size: 12px;
   }
 
   .work-card-description {
-   
     font-size: 15px;
     margin-top: 10px;
     font-size: 12px;
@@ -184,7 +164,7 @@ a{
   .work-skill {
     margin: 5px;
     padding: 5px 10px;
-   
+
     border-radius: 20px;
     font-size: 10px;
   }

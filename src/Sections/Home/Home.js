@@ -1,64 +1,27 @@
 import React, { useEffect, useRef } from "react";
 import "./Home.css";
-import { SolidButton } from "../../Components/SolidButton/SolidButton";
-import GlassContainer from "../../Components/GlassContainer/GlassContainer";
-import ToggleButton from "../../Components/ToggleButton/ToggleButton";
-import Stack from "../../Components/stack/Stack";
+import homeImg from "../../assets/images/budget.png";
+import { Skillset } from "../../Components/skillset/Skillset";
 
 export const Home = () => {
-  const handleDownloadClick = () => {
-    const pdfPath = process.env.PUBLIC_URL + "/files/resume.pdf";
-    window.open(pdfPath, "_blank");
-  };
-
-  const sectionRef = useRef();
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("reveal"); 
-          }
-        });
-      },
-      {
-        threshold: 0.3,
-      }
-    );
-
-    observer.observe(sectionRef.current);
-
-    return () => observer.disconnect();
-  }, []);
+  
 
   return (
-  
     <section id="home">
-      <div className="home-container" ref={sectionRef}>
+      <div className="home-container reveal-section">
         <div className="home-about">
-          <div className="home-about-p" ref={sectionRef}>
-            From captivating
+          <div className="home-about-h1">
+            Where your <span className="h1-span">ideas</span> turn into{" "}
+            <span className="h1-span">solutions</span>
           </div>
-          <div className="home-about-h3">
-            UI Designs to Full-Stack Development,
-          </div>
-          <div className="home-about-h1">Hi! I'm Kaveesha Fernando.</div>
-          <div className="home-about-p2" ref={sectionRef}>
-            Specializing in the creation of exceptional digital experiences, the
-            emphasis is placed on the development of APIs and the seamless
-            integration of various components. Proficient in both the
-            construction and occasional design of{" "}
-            <span className="home-span">innovative solutions.</span>
-          </div>
+          <img src={homeImg} className="main-img"/>
           <div className="home-components-container">
-            <SolidButton onClick={handleDownloadClick} />
-            <GlassContainer />
+            {/* <SolidButton onClick={handleDownloadClick} /> */}
+            {/* <GlassContainer /> */}
           </div>
         </div>
         {/* <Stack/> */}
-        </div>
-      
+      </div>
     </section>
   );
 };

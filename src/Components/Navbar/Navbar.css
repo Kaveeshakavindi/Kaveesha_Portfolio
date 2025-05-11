@@ -1,45 +1,42 @@
-
-
 .nav-container {
-  background-color: transparent;
+  background-color: var(--glass-bg);
   position: fixed;
-  width: 100%;
-  backdrop-filter: blur(10px);
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
+  width: 50%;
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0;
   z-index: 20000;
+  padding: 0.5rem 2rem;
+  max-width: 1200px;
+  top: 3%;
+  border-radius: 50px;
+  border: solid 0.1px var(--stroke-color);
 }
 
 .logo {
-  margin: 20px ;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.logo-name{
+.logo-name {
   color: var(--color-3);
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 17px;
   margin: 0 10px 0 0;
-}
-
-.sonar-container{
-  padding: 0px 20px 5px 0;
- 
 }
 
 .logo:hover {
   opacity: 70%;
 }
 
-.contact-ul{
+.contact-ul {
   display: flex;
   align-items: center;
   list-style-type: none;
@@ -49,83 +46,49 @@
   padding-right: 1rem;
 }
 
-.contact-li{
+.contact-li {
   float: right;
 }
 
-.contact-li a{
+.contact-li a {
   display: block;
   color: var(--color-2);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
-  transition: color 0.3s ;
+  transition: color 0.3s;
 }
 
-.contact-li a:hover{
+.contact-li a:hover {
   cursor: pointer;
   color: var(--color-3);
 }
-/* .nav-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-  overflow: hidden;
-}
 
-.nav-list-item {
-  float: right;
-}
-
-.navigation a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  
-}
-
-.navigation a.active{
-  color: #d792f4;
-}
-.navigation a:not(.active):hover {
-  opacity: 70%;
-} */
-
-
-
-
-
-
-
-@media screen and (max-width:1024px){
- 
- 
-
+@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 480px) {
+  .nav-container {
+    width: 80%;
+    padding: 0.1rem 2rem;
+    top: 1%;
+  }
   .logo {
-    margin: 10px ;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .logo-name{
-   
+  .logo-name {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     margin: 0 10px 0 0;
   }
-  .nav-list{
+  .nav-list {
     visibility: hidden;
     padding: 0;
   }
-
 }

@@ -5,29 +5,41 @@
   justify-content: center;
   position: relative;
 }
-
+.main-img {
+  max-width: 100%;
+  height: 25rem;
+  object-fit: contain;
+  display: block;
+  margin: 2rem auto;
+}
 
 .home-about {
-  display: flex; /* Add this line */
+  display: flex;
   flex-direction: column;
   text-align: left;
-  width: 60%;
+  width: 100%;
   color: white;
   height: 100%;
   justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
 }
 
 .home-about-h1 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: var(--color-1);
+  color: var(--true-color);
   line-height: 1;
+  text-align: center;
+  width: 60%;
 }
-
+.h1-span {
+  color: var(--color-3);
+}
 .home-about-h3 {
   font-size: 20;
-  color: var(--color-2);
+  color: var(--true-color);
   margin: 1rem 0;
   line-height: 1;
 }
@@ -66,6 +78,9 @@
     width: 100%;
     color: white;
   }
+  .home-about-h1 {
+    font-size: 30px;
+  }
 }
 
 /* Responsive styles for even smaller screens (e.g., mobile phones) */
@@ -83,16 +98,6 @@
     font-size: 30px;
   }
 
-  .home-about-h3 {
-    font-size: 30px;
-  }
-
-  .home-about-p {
-    font-size: 12px;
-  }
-  .home-about-p2 {
-    font-size: 12px;
-  }
   .home-components-container {
     margin-top: 1rem;
   }
