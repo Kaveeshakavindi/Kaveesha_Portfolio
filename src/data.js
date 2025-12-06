@@ -5,34 +5,28 @@ import p2_2 from "../src/assets/images/p2-2.png";
 export const services = [
   {
     id: "01.",
-    title: "Frontend Development",
+    title: "Mobile APP Development",
     description:
-      "Creative frontend development using modern technologies and trends. I believe in telling stories through design — keeping it simple, clear, and engaging so users intuitively understand what to do and where to go.",
+      "Building mobile apps using React Native and Swift.",
   },
   {
     id: "02.",
-    title: "Backend Logic & Problem Solving",
+    title: "Frontend web development",
     description:
-      "From designing robust RESTful and GraphQL APIs to implementing logic with Express.js, Spring Boot, or ASP.NET Core — I build backends that are efficient, secure, and scalable. Understanding the right ORM for each stack helps make data handling smoother and cleaner.",
+      "Developing web interfaces with Next.js and React.",
   },
-  {
+    {
     id: "03.",
-    title: "Certified Scrum Master",
+    title: "NLP Research",
     description:
-      "Agile isn't just a buzzword — it's how I deliver results. As a Certified Scrum Master, I bring proven practices into real-world development: leading sprints, refining backlogs, enabling CI/CD pipelines, and fostering a collaborative team culture. The certification backs my experience with trust and credibility.",
+      "Exploring ontologies to enhance LLM implicit knowledge with logical reasoning.",
   },
   {
     id: "04.",
-    title: "3 Years of Experience",
+    title: "Agile Methodologies",
     description:
-      "With over three years of hands-on experience, I’ve built full-stack applications across industries — including fintech platforms, mobile apps, web portals, and enterprise solutions.",
-  },
-  {
-    id: "05.",
-    title: "UI/UX Design",
-    description:
-      "From sketching ideas in Figma to refining them in InDesign, I’ve explored various design tools to craft thoughtful, intuitive interfaces. I focus on merging usability with visual appeal, using technologies like Figma and Adobe InDesign",
-  },
+      "Practicing Scrum with certified training experience.",
+  }
 ];
 export const workData = [
   {
