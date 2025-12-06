@@ -41,7 +41,7 @@ export const Navbar = () => {
       <div className={`nav-container ${isScrolled ? "scrolled" : ""}`}>
         <div className="logo">
           <a href="#home" className="logo-name">
-            #1
+            {"</>"}
           </a>
           <a href="#home" className="logo-name">
             Kaveesha

@@ -2,30 +2,39 @@ import p1 from "../src/assets/images/p1.png";
 import p1_2 from "../src/assets/images/p1-2.png";
 import p2 from "../src/assets/images/p2.png";
 import p2_2 from "../src/assets/images/p2-2.png";
+import img18 from "../src/assets/images/18.png";
+import img19 from "../src/assets/images/19.png";
+import img20 from "../src/assets/images/20.png";
+import img22 from "../src/assets/images/22.png";
 export const services = [
+  
   {
     id: "01.",
-    title: "Mobile APP Development",
+    title: "Development",
     description:
       "Building mobile apps using React Native and Swift.",
-  },
-  {
-    id: "02.",
-    title: "Frontend web development",
-    description:
-      "Developing web interfaces with Next.js and React.",
+      img: img18
   },
     {
     id: "03.",
-    title: "NLP Research",
+    title: "Interests",
     description:
-      "Exploring ontologies to enhance LLM implicit knowledge with logical reasoning.",
+      "Exploring methods to enhance LLM implicit knowledge with logical reasoning.",
+       img: img19
   },
   {
     id: "04.",
-    title: "Agile Methodologies",
+    title: "Practice",
     description:
       "Practicing Scrum with certified training experience.",
+       img: img20
+  },
+  {
+    id: "05.",
+    title: "Hobbies",
+    description:
+      "Graphic designing and digital art.",
+       img: img22
   }
 ];
 export const workData = [
