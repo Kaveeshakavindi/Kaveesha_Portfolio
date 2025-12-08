@@ -2,6 +2,7 @@ import p1 from '../src/assets/images/p1.png'
 import p1_2 from '../src/assets/images/p1-2.png'
 import p2 from '../src/assets/images/p2.png'
 import p2_2 from '../src/assets/images/p2-2.png'
+import p3 from '../src/assets/images/p3.png'
 import img18 from '../src/assets/images/18.png'
 import img19 from '../src/assets/images/19.png'
 import img20 from '../src/assets/images/20.png'
@@ -126,7 +127,7 @@ export const projectsData = [
     link: 'https://github.com/Kaveeshakavindi/claract-client',
     description:
       'Claract Skin is a skin care web application that utilise MongoDB for data storage and React for the front-end interface.',
-    main_image: p2,
+    main_image: p3,
     sub_image: ''
   }
 ]
