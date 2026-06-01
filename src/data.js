@@ -58,24 +58,24 @@ export const services = [
   {
     id: '01.',
     title: 'Development',
-    description: 'Building mobile apps using React Native and Swift.',
+    description: 'Experienced in exploratory data analysis, developing ETL pipelines, REST APIs, mobile and web applications',
     img: img18
   },
   {
-    id: '03.',
+    id: '02.',
     title: 'Interests',
     description:
-      'Exploring methods to enhance LLM implicit knowledge with logical reasoning.',
+      'Exploring methods to enhance LLM implicit knowledge with counterfactual reasoning.',
     img: img19
   },
   {
-    id: '04.',
+    id: '03.',
     title: 'Practice',
     description: 'Practicing Scrum with certified training experience.',
     img: img20
   },
   {
-    id: '05.',
+    id: '04.',
     title: 'Hobbies',
     description: 'Graphic designing and digital art.',
     img: img22
@@ -350,33 +350,71 @@ export const publicationsData = [
 
 export const timelineData = [
   {
-    year: '2024 – Present',
-    role: 'Senior Frontend Developer',
-    company: 'Tech Corp',
+    year: '2024 – 2026',
+    role: 'Jr. Software Engineer',
+    company: 'Seylan Bank PLC, Sri Lanka',
     description:
-      'Leading frontend architecture and mentoring junior developers.',
+      'Designed and developed ETL pipelines',
     type: 'work'
   },
   {
-    year: '2022 – 2024',
-    role: 'Frontend Developer',
-    company: 'Startup XYZ',
+    year: '2023 – 2024',
+    role: 'Mobile Engineering Intern',
+    company: 'Axiata Digital Labs, Sri Lanka',
     description:
-      'Built and shipped multiple React-based products from scratch.',
+      'React Native mobile app development and Redux state management',
     type: 'work'
   },
   {
-    year: '2021',
-    role: 'BSc Computer Science',
-    company: 'University of Colombo',
+    year: '2021 - 2026',
+    role: 'BEng. Software Engineering (Hons) with Placement',
+    company: 'University of Westminster, UK (IIT, Sri Lanka)',
     description: 'Graduated with first class honours.',
     type: 'education'
   },
   {
-    year: '2020',
-    role: 'Frontend Intern',
-    company: 'Agency Co',
+    year: '2025 - Present',
+    role: 'Marketing Manager',
+    company: 'Women in Tech, Sri Lanka',
     description: 'Developed responsive UI components and landing pages.',
-    type: 'work'
-  }
+    type: 'Volunteer & Leadership'
+  },
+  {
+    year: '2025 - 2026',
+    role: 'Creative Designer',
+    company: 'Teens in AI, Sri Lanka',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'Volunteer & Leadership'
+  },
+  {
+    year: '2023 - 2024',
+    role: 'Zone Director',
+    company: 'Leo District 306A1',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'Volunteer & Leadership'
+  },
+   {
+    year: '2022 - 2023',
+    role: 'Secretary',
+    company: 'Leo Club of IIT, Sri Lanka',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'Volunteer & Leadership'
+  },
+  
+  {
+    year: '2021 - 2022',
+    role: 'IT & Marketing Director',
+    company: 'Leo Club of IIT, Sri Lanka',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'Volunteer & Leadership'
+  },
+ 
+  {
+    year: '2022 - 2023',
+    role: 'Media Head',
+    company: 'OpenHack 2.0 - Mozilla Campus Club of IIT, Sri Lanka',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'Volunteer & Leadership'
+  },
+  
 ]

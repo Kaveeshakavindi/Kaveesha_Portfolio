@@ -26,14 +26,12 @@ export const Graphics = ({ image, alt, title }) => {
       <div
         className='
           absolute inset-0
-          bg-gradient-to-t
-          from-pink-600/50
-          via-red-500/30
           to-transparent
           transition-opacity duration-500 ease-out
           group-hover:opacity-0
           pointer-events-none
         '
+        style={{ background: 'linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 105, 180, 0.3), transparent)' }}
       />
       <p className='absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 text-white text-center '>
         {title}

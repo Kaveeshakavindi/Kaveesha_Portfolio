@@ -14,6 +14,7 @@ import { Projects } from './Sections/Projects/Projects'
 import { Marketing } from './Sections/Marketing/Marketing'
 import Publications from './Sections/Publications/Publications'
 import { Timeline } from './Sections/Timeline/Timeline'
+import Testimonials from './Sections/Testimonials/Testimonials'
 gsap.registerPlugin(ScrollTrigger)
 function App () {
   const [isLoading, setIsLoading] = useState(true)
@@ -54,9 +55,9 @@ function App () {
 
   return (
     <div className='App'>
-      {/* {isLoading ? (
+      {isLoading ? (
         <LandingPage />
-      ) : ( */}
+      ) : (
       <div>
         <CustomCursor />
         <div className='custom-cursor'></div>
@@ -70,10 +71,11 @@ function App () {
         <Publications />
         <Projects />
         <Marketing />
+        <Testimonials />
         {/* <Work /> */}
         <Footer />
       </div>
-      {/* )} */}
+    )}
     </div>
   )
 }

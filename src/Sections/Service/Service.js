@@ -19,10 +19,28 @@ const ServiceCard = ({ title, description, num ,img}) => {
 export const Service = () => {
 
   return (
-    <section id="service">
-      <div className="section-container">
-        <div className="service-container reveal-section">
-          <div className="sectionTitle">Services</div>
+    <section id="testimonials" className="py-24 px-6" style={{ background: 'var(--color-bg)' }}>
+      <div className="max-w-5xl mx-auto">
+ 
+        {/* Header */}
+        <div className="mb-16">
+          <p
+            className="text-xs tracking-[0.25em] uppercase mb-3 font-medium"
+            style={{ color: 'var(--main-var-color)' }}
+          >
+            What I do
+          </p>
+          <h2
+            className="text-4xl font-light leading-tight"
+            style={{ color: 'var(--true-color)' }}
+          >
+            Services
+          </h2>
+          <div
+            className="mt-4 h-px w-12"
+            style={{ background: 'var(--stroke-color)' }}
+          />
+        </div>
           <div className="service-cards-container">
             {services.map((service, index) => (
               <ServiceCard
@@ -35,7 +53,6 @@ export const Service = () => {
             ))}
           </div>
         </div>
-      </div>
     </section>
   );
 };

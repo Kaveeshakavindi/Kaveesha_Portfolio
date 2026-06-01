@@ -7,10 +7,28 @@ export const Marketing = () => {
   const [selected, setSelected] = useState(null)
 
   return (
-    <section id='projects'>
-      <div className='section-container'>
-        <div className='projects-container reveal-section'>
-          <div className='sectionTitle'>Marketing & Graphic Designing</div>
+<section id="testimonials" className="py-24 px-6" style={{ background: 'var(--color-bg)' }}>
+      <div className="max-w-5xl mx-auto">
+ 
+        {/* Header */}
+        <div className="mb-16">
+          <p
+            className="text-xs tracking-[0.25em] uppercase mb-3 font-medium"
+            style={{ color: 'var(--main-var-color)' }}
+          >
+            Creative work
+          </p>
+          <h2
+            className="text-4xl font-light leading-tight"
+            style={{ color: 'var(--true-color)' }}
+          >
+            Marketing & Graphics
+          </h2>
+          <div
+            className="mt-4 h-px w-12"
+            style={{ background: 'var(--stroke-color)' }}
+          />
+        </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
             {graphicsData.map((graphic, index) => (
               <div
@@ -33,7 +51,6 @@ export const Marketing = () => {
             ))}
           </div>
         </div>
-      </div>
 
       {selected && (
         <ProjectModal project={selected} onClose={() => setSelected(null)} />
