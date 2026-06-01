@@ -7,6 +7,53 @@ import img18 from '../src/assets/images/18.png'
 import img19 from '../src/assets/images/19.png'
 import img20 from '../src/assets/images/20.png'
 import img22 from '../src/assets/images/22.png'
+// graphics images
+//WIT
+import img23 from '../src/assets/images/Graphics/wit/15.png'
+import img24 from '../src/assets/images/Graphics/wit/1.png'
+import img26 from '../src/assets/images/Graphics/wit/3.png'
+import img27 from '../src/assets/images/Graphics/wit/4.png'
+import img28 from '../src/assets/images/Graphics/wit/5.png'
+import img29 from '../src/assets/images/Graphics/wit/6.png'
+import img30 from '../src/assets/images/Graphics/wit/7.png'
+import img31 from '../src/assets/images/Graphics/wit/8.png'
+import img32 from '../src/assets/images/Graphics/wit/9.png'
+import img33 from '../src/assets/images/Graphics/wit/10.png'
+import img34 from '../src/assets/images/Graphics/wit/11.png'
+import img35 from '../src/assets/images/Graphics/wit/12.png'
+import img36 from '../src/assets/images/Graphics/wit/13.png'
+import img37 from '../src/assets/images/Graphics/wit/14.png'
+import img38 from '../src/assets/images/Graphics/wit/16.png'
+import img39 from '../src/assets/images/Graphics/wit/17.png'
+import img40 from '../src/assets/images/Graphics/wit/18.png'
+import img41 from '../src/assets/images/Graphics/wit/19.png'
+import img42 from '../src/assets/images/Graphics/wit/20.png'
+import img43 from '../src/assets/images/Graphics/wit/21.png'
+import img44 from '../src/assets/images/Graphics/wit/22.png'
+import img45 from '../src/assets/images/Graphics/wit/23.png'
+import img46 from '../src/assets/images/Graphics/wit/24.png'
+import img47 from '../src/assets/images/Graphics/wit/25.png'
+import img48 from '../src/assets/images/Graphics/wit/26.png'
+import img49 from '../src/assets/images/Graphics/wit/27.png'
+import img50 from '../src/assets/images/Graphics/wit/28.png'
+//TIA
+import img51 from '../src/assets/images/Graphics/tia/9.png'
+import img52 from '../src/assets/images/Graphics/tia/1.png'
+import img53 from '../src/assets/images/Graphics/tia/2.png'
+import img54 from '../src/assets/images/Graphics/tia/3.png'
+import img55 from '../src/assets/images/Graphics/tia/4.png'
+import img56 from '../src/assets/images/Graphics/tia/5.png'
+import img57 from '../src/assets/images/Graphics/tia/6.png'
+import img58 from '../src/assets/images/Graphics/tia/7.png'
+import img59 from '../src/assets/images/Graphics/tia/8.png'
+import img60 from '../src/assets/images/Graphics/tia/10.png'
+import img61 from '../src/assets/images/Graphics/tia/11.png'
+//regeniq
+import img62 from '../src/assets/images/Graphics/regen/2.png'
+import img63 from '../src/assets/images/Graphics/regen/1.png'
+import img64 from '../src/assets/images/Graphics/regen/3.png'
+import img65 from '../src/assets/images/Graphics/regen/4.png'
+
 export const services = [
   {
     id: '01.',
@@ -129,5 +176,207 @@ export const projectsData = [
       'Claract Skin is a skin care web application that utilise MongoDB for data storage and React for the front-end interface.',
     main_image: p3,
     sub_image: ''
+  }
+]
+
+export const graphicsData = [
+  {
+    project: 'Women in Tech, Sri Lanka',
+    description: 'Creative work for Women in Tech, Sri Lanka',
+    images: [
+      {
+        url: img23,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img24,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img30,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img26,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img27,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img31,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img32,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img33,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img34,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img35,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img36,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img37,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img38,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img39,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img40,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img41,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img42,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img43,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img44,
+        alt: 'Women in Tech, Sri Lanka'
+      },
+      {
+        url: img46,
+        alt: 'Women in Tech, Sri Lanka'
+      }
+    ]
+  },
+  {
+    project: 'Teens in AI, Sri Lanka',
+    description: 'Creative work for Teens in AI, Sri Lanka',
+    images: [
+      {
+        url: img51,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img52,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img53,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img54,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img55,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img56,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img57,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img58,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img59,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img60,
+        alt: 'Teens in AI, Sri Lanka'
+      },
+      {
+        url: img61,
+        alt: 'Teens in AI, Sri Lanka'
+      }
+    ]
+  },
+  {
+    project: 'RegenIQ',
+    description: 'Creative work for RegenIQ',
+    images: [
+      {
+        url: img62,
+        alt: 'RegenIQ'
+      },
+      {
+        url: img63,
+        alt: 'RegenIQ'
+      },
+      {
+        url: img64,
+        alt: 'RegenIQ'
+      },
+      {
+        url: img65,
+        alt: 'RegenIQ'
+      }
+    ]
+  }
+]
+
+export const publicationsData = [
+  {
+    title:
+      'Greenwashing Detection in Corporate ESG Reports though Neurosymbolic AI & Counterfactual Reasoning',
+    description: 'Future Technologies Conference (FTC) 2026 (Accepted)'
+  }
+]
+
+export const timelineData = [
+  {
+    year: '2024 – Present',
+    role: 'Senior Frontend Developer',
+    company: 'Tech Corp',
+    description:
+      'Leading frontend architecture and mentoring junior developers.',
+    type: 'work'
+  },
+  {
+    year: '2022 – 2024',
+    role: 'Frontend Developer',
+    company: 'Startup XYZ',
+    description:
+      'Built and shipped multiple React-based products from scratch.',
+    type: 'work'
+  },
+  {
+    year: '2021',
+    role: 'BSc Computer Science',
+    company: 'University of Colombo',
+    description: 'Graduated with first class honours.',
+    type: 'education'
+  },
+  {
+    year: '2020',
+    role: 'Frontend Intern',
+    company: 'Agency Co',
+    description: 'Developed responsive UI components and landing pages.',
+    type: 'work'
   }
 ]
