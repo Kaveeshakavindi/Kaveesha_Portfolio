@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kaveesha_Portfolio/static/css/main.a1bb7338.css",
-    "main.js": "/Kaveesha_Portfolio/static/js/main.df020ac4.js",
+    "main.css": "/Kaveesha_Portfolio/static/css/main.9e9d87fa.css",
+    "main.js": "/Kaveesha_Portfolio/static/js/main.01d0f072.js",
     "static/media/4.png": "/Kaveesha_Portfolio/static/media/4.03a506fa9398c01fa54c.png",
     "static/media/2.png": "/Kaveesha_Portfolio/static/media/2.67c3a1d7ad076133528b.png",
     "static/media/3.png": "/Kaveesha_Portfolio/static/media/3.1c8c4689b1400c535b33.png",
@@ -12,6 +12,7 @@
     "static/media/16.png": "/Kaveesha_Portfolio/static/media/16.8c59945ebb36e9c26bdf.png",
     "static/media/1.png": "/Kaveesha_Portfolio/static/media/1.01e7a8ad358ccd2dc8f9.png",
     "static/media/10.png": "/Kaveesha_Portfolio/static/media/10.f508d1d82862bacb3af6.png",
+    "static/media/me1.jpg": "/Kaveesha_Portfolio/static/media/me1.06b664c563d0ef4f0fdc.jpg",
     "static/media/6.png": "/Kaveesha_Portfolio/static/media/6.83f8a537ebc518b6bef5.png",
     "static/media/8.png": "/Kaveesha_Portfolio/static/media/8.e4b1e0eb3a978283a303.png",
     "static/media/11.png": "/Kaveesha_Portfolio/static/media/11.bc85a3dd38bca33ad759.png",
@@ -31,18 +32,17 @@
     "static/media/p3.png": "/Kaveesha_Portfolio/static/media/p3.940bb900f0f6d89e3453.png",
     "static/media/p2-2.png": "/Kaveesha_Portfolio/static/media/p2-2.64293d580b9284f35f63.png",
     "static/media/12.png": "/Kaveesha_Portfolio/static/media/12.e495634453c220f5572c.png",
-    "static/media/budget.png": "/Kaveesha_Portfolio/static/media/budget.c9f741ef05e2a71eea6b.png",
     "static/media/19.png": "/Kaveesha_Portfolio/static/media/19.d183e43c530f96c5ee69.png",
     "static/media/17.png": "/Kaveesha_Portfolio/static/media/17.f2a56c3255867df48764.png",
     "static/media/18.png": "/Kaveesha_Portfolio/static/media/18.66d7f0f0c10931d11d74.png",
     "static/media/20.png": "/Kaveesha_Portfolio/static/media/20.e36337c5a8561be6ac61.png",
     "static/media/skills.png": "/Kaveesha_Portfolio/static/media/skills.7d3bdb71f83042566d0e.png",
     "index.html": "/Kaveesha_Portfolio/index.html",
-    "main.a1bb7338.css.map": "/Kaveesha_Portfolio/static/css/main.a1bb7338.css.map",
-    "main.df020ac4.js.map": "/Kaveesha_Portfolio/static/js/main.df020ac4.js.map"
+    "main.9e9d87fa.css.map": "/Kaveesha_Portfolio/static/css/main.9e9d87fa.css.map",
+    "main.01d0f072.js.map": "/Kaveesha_Portfolio/static/js/main.01d0f072.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1bb7338.css",
-    "static/js/main.df020ac4.js"
+    "static/css/main.9e9d87fa.css",
+    "static/js/main.01d0f072.js"
   ]
 }
