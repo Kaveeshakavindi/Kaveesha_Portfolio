@@ -369,35 +369,35 @@ export const timelineData = [
     year: '2021 - 2026',
     role: 'BEng. Software Engineering (Hons) with Placement',
     company: 'University of Westminster, UK (IIT, Sri Lanka)',
-    description: 'Graduated with first class honours.',
+    description: '',
     type: 'education'
   },
   {
     year: '2025 - Present',
     role: 'Marketing Manager',
     company: 'Women in Tech, Sri Lanka',
-    description: 'Developed responsive UI components and landing pages.',
+    description: 'Involved in directing marketing campaigns',
     type: 'Volunteer & Leadership'
   },
   {
     year: '2025 - 2026',
     role: 'Creative Designer',
     company: 'Teens in AI, Sri Lanka',
-    description: 'Developed responsive UI components and landing pages.',
+    description: 'Involved in directing marketing campaigns',
     type: 'Volunteer & Leadership'
   },
   {
     year: '2023 - 2024',
     role: 'Zone Director',
     company: 'Leo District 306A1',
-    description: 'Developed responsive UI components and landing pages.',
+    description: `Contributed in the administrative tasks at zonal level. Participated in zonal leo clubs' general meetings as special guest`,
     type: 'Volunteer & Leadership'
   },
    {
     year: '2022 - 2023',
     role: 'Secretary',
     company: 'Leo Club of IIT, Sri Lanka',
-    description: 'Developed responsive UI components and landing pages.',
+    description: 'Contributed in the secretarial duties of LCIIT',
     type: 'Volunteer & Leadership'
   },
   
@@ -405,7 +405,7 @@ export const timelineData = [
     year: '2021 - 2022',
     role: 'IT & Marketing Director',
     company: 'Leo Club of IIT, Sri Lanka',
-    description: 'Developed responsive UI components and landing pages.',
+    description: 'Involved in directing marketing campaigns',
     type: 'Volunteer & Leadership'
   },
  
@@ -413,7 +413,7 @@ export const timelineData = [
     year: '2022 - 2023',
     role: 'Media Head',
     company: 'OpenHack 2.0 - Mozilla Campus Club of IIT, Sri Lanka',
-    description: 'Developed responsive UI components and landing pages.',
+    description: 'Involved in directing marketing campaigns',
     type: 'Volunteer & Leadership'
   },
   
