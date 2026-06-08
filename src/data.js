@@ -180,92 +180,7 @@ export const projectsData = [
 ]
 
 export const graphicsData = [
-  {
-    project: 'Women in Tech, Sri Lanka',
-    description: 'Creative work for Women in Tech, Sri Lanka',
-    images: [
-      {
-        url: img23,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img24,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img30,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img26,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img27,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img31,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img32,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img33,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img34,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img35,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img36,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img37,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img38,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img39,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img40,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img41,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img42,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img43,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img44,
-        alt: 'Women in Tech, Sri Lanka'
-      },
-      {
-        url: img46,
-        alt: 'Women in Tech, Sri Lanka'
-      }
-    ]
-  },
+  
   {
     project: 'Teens in AI, Sri Lanka',
     description: 'Creative work for Teens in AI, Sri Lanka',
@@ -371,13 +286,6 @@ export const timelineData = [
     company: 'University of Westminster, UK (IIT, Sri Lanka)',
     description: '',
     type: 'education'
-  },
-  {
-    year: '2025 - Present',
-    role: 'Marketing Manager',
-    company: 'Women in Tech, Sri Lanka',
-    description: 'Involved in directing marketing campaigns',
-    type: 'Volunteer & Leadership'
   },
   {
     year: '2025 - 2026',
