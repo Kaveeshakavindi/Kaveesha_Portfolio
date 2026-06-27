@@ -64,9 +64,9 @@ export const Navbar = () => {
                 <SlSocialLinkedin />
               </a>
             </li>
-            <li>
+            {/* <li>
               <ToggleButton onToggle={handleToggle} />
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* <div className="navigation">
