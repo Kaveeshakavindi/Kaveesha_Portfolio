@@ -4,15 +4,17 @@ import React from 'react'
 import './Home.css'
 import { Skillset } from '../../Components/skillset/Skillset'
 import meImg from '../../assets/images/me/me1.jpg'
+import { NasaAPOD } from '../../Components/NasaAPOD/NasaAPOD'
  
 export const Home = () => {
   return (
     <section id='home'>
       <div className='home-container reveal-section'>
         <div className='home-about'>
+          <NasaAPOD/>
  
           {/* Circular profile image */}
-          <div
+          {/* <div
             style={{
               width: '120px',
               height: '120px',
@@ -28,7 +30,7 @@ export const Home = () => {
               alt='Kaveesha'
               style={{ width: '100%', height: '100%', objectFit: 'cover', scale: '1.3' }}
             />
-          </div>
+          </div> */}
  
           <div className='home-about-h1'>
             Hello <span className='h1-span'>my</span> name is{' '}
