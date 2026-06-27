@@ -3,7 +3,6 @@ import './App.css'
 import { Navbar } from './Components/Navbar/Navbar'
 import { Home } from './Sections/Home/Home'
 import { Blog } from './Sections/Blog/Blog'
-import { Work } from './Sections/Work/Work'
 import { Service } from './Sections/Service/Service'
 import CustomCursor from './Components/CustomCursor/CustomCursor'
 import Footer from './Components/Footer/Footer'
@@ -26,7 +25,7 @@ function App () {
 
   useEffect(() => {
     if (!isLoading) {
-      gsap.registerPlugin(ScrollTrigger) // ✅ Safe to register again
+      gsap.registerPlugin(ScrollTrigger) 
 
       const sections = document.querySelectorAll('.reveal-section')
 
@@ -71,8 +70,7 @@ function App () {
         <Publications />
         <Projects />
         <Marketing />
-        <Testimonials />
-        {/* <Work /> */}
+        {/* <Testimonials /> */}
         <Footer />
       </div>
     )}

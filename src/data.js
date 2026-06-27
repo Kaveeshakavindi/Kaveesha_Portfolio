@@ -3,6 +3,12 @@ import p1_2 from '../src/assets/images/p1-2.png'
 import p2 from '../src/assets/images/p2.png'
 import p2_2 from '../src/assets/images/p2-2.png'
 import p3 from '../src/assets/images/p3.png'
+import p4 from '../src/assets/images/projects/rf_tuned_pred_vs_actual.png'
+import p5 from '../src/assets/images/projects/conf.png'
+import p6 from '../src/assets/images/projects/adventura.png'
+import p7 from '../src/assets/images/projects/mealapp.png'
+import p8 from '../src/assets/images/projects/dice.png'
+
 import img18 from '../src/assets/images/18.png'
 import img19 from '../src/assets/images/19.png'
 import img20 from '../src/assets/images/20.png'
@@ -81,56 +87,6 @@ export const services = [
     img: img22
   }
 ]
-export const workData = [
-  {
-    title: 'Portfolio Website',
-    description:
-      'A sleek portfolio website showcasing creativity and skills, crafted with React.js.',
-    imgUrl: './images/portfolio.png',
-    skills: ['React', 'JavaScript', 'CSS'],
-    href: 'https://github.com/Kaveeshakavindi/Kaveesha_Portfolio.git'
-  },
-  {
-    title: 'Craft Masters',
-    description:
-      'Experience craftsmanship at its finest! Craft Masters, a React Native app, connects users with skilled craftsmen, featuring a stylish dark and light theme.',
-    imgUrl: './images/craftmasters.png',
-    skills: ['React Native', 'JavaScript', 'Figma'],
-    href: 'https://github.com/Kaveeshakavindi/Horizontally-scrollable-tab-bar.git'
-  },
-  {
-    title: 'Adventura',
-    description:
-      'Embark on a journey with Adventura, a React Native travel app, helping users discover and explore tourist attractions around the globe.',
-    imgUrl: './images/adventura.png',
-    skills: ['React Native', 'TypeScript', 'Figma'],
-    href: 'https://github.com/Kaveeshakavindi/Adventura.git'
-  },
-  {
-    title: 'Blueberi',
-    description:
-      'Elevate your style with Blueberi, an e-commerce clothing website. Built with React.js and TypeScript, it offers a seamless shopping experience.',
-    imgUrl: './images/blueberi.png',
-    skills: ['React', 'TypeScript', 'CSS', 'Figma'],
-    href: 'https://github.com/Kaveeshakavindi/Blueberi.git'
-  },
-  {
-    title: 'Dice Rolling Game',
-    description:
-      'Roll the virtual dice in this Kotlin app! Challenge the computer in a thrilling game of chance, rolling five dice at a time.',
-    imgUrl: './images/dice.png',
-    skills: ['Kotlin', 'Figma'],
-    href: 'https://github.com/Kaveeshakavindi/Dice_rolling_game.git'
-  },
-  {
-    title: 'Meal App',
-    description:
-      'Satisfy your culinary cravings with the Meal App. This Kotlin CRUD application, powered by the MealDB API, serves up a delightful experience for food enthusiasts.',
-    imgUrl: './images/mealapp.png',
-    skills: ['Kotlin', 'MealDB API', 'Figma'],
-    href: 'https://github.com/Kaveeshakavindi/Meal_App.git'
-  }
-]
 
 export const projectCategories = [
   'Research',
@@ -147,22 +103,57 @@ export const projectCategories = [
 
 export const projectsData = [
   {
+    title: 'PHQ & GAD Score Regression',
+    categories: [projectCategories[2], projectCategories[5]],
+    link: 'https://github.com/Kaveeshakavindi/PHQ-GAD-Score-Regression.git',
+    description:
+      'Predicting baseline anxiety (GAD) and depression (PHQ) scores from momentary negative thought patterns collected via Experience Sampling Method. Best result Random Forest Regressor achieving 0.7335 of R² with 10-fold cross-validation',
+    main_image: p4
+  },
+   {
+    title: 'Steller Class Prediction',
+    categories: [projectCategories[2], projectCategories[5]],
+    link: 'https://github.com/Kaveeshakavindi/steller_class_prediction.git',
+    description:
+      'Classify astronomical objects using Random Forest classifier achieving 96% accuracy and 0.96 weighted F1 on the Kaggle Playground Series S6E6 competition dataset. Applied robust scaling and one-hot encoding to handle outliers across  data.',
+    main_image: p5
+  },
+  {
     title: 'ThreeJs Drone Website',
     categories: [projectCategories[2], projectCategories[5]],
     link: 'https://ember-sooty.vercel.app',
     description:
-      'Modeled every part of the drone—from blades to body—with attention to realistic detail, giving it a tangible, almost tactile digital form with Blender version 4.4.3. Each piece was measured, designed, and animated to simulate realistic movement, tilt, and control as it would behave physically.',
+      'Modeled every part of the drone, from blades to body with Blender version 4.4.3. Each piece was animated to simulate realistic movement, tilt and control.',
     main_image: p1,
     sub_image: p1_2
   },
   {
+    title: 'Dice Rolling Game',
+    description:
+      'Roll the virtual dice in this Kotlin app! Challenge the computer in a thrilling game of chance, rolling five dice at a time.',
+    main_image: p8,
+    link: 'https://github.com/Kaveeshakavindi/Dice_rolling_game.git'
+  },
+  {
+    title: 'Meal App',
+    description:
+      'Satisfy your culinary cravings with the Meal App. This Kotlin CRUD application, powered by the MealDB API, serves up a delightful experience for food enthusiasts.',
+    main_image: p7,
+    link: 'https://github.com/Kaveeshakavindi/Meal_App.git'
+  },
+  {
+    title: 'Adventura',
+    description:
+      'A React Native travel app, helping users discover and explore tourist attractions around the globe.',
+    main_image: p6,
+    link: 'https://github.com/Kaveeshakavindi/Adventura.git'
+  },
+  {
     title: 'NextGen News Aggregator',
-    categories: [projectCategories[2], projectCategories[6]],
     link: 'https://github.com/Kaveeshakavindi/TechFeed.git',
     description:
       'This project integrates a real-time news aggregator and user authentication system using Redux Toolkit, RTK Query, and Chakra UI. It fetches articles from selected domains, supports keyword search, and allows users to bookmark articles and securely log in or sign up.',
     main_image: p2,
-    sub_image: p2_2
   },
   {
     title: 'Claract Skin',
@@ -251,6 +242,90 @@ export const graphicsData = [
         url: img65,
         alt: 'RegenIQ'
       }
+    ]
+  },
+  {
+    project: 'Women in Tech, Sri Lanka',
+    description: 'Creative work for WIT',
+    images: [
+      {
+        url: img23,
+        alt: 'WIT'
+      },
+      {
+        url: img24,
+        alt: 'WIT'
+      },
+      {
+        url: img26,
+        alt: 'WIT'
+      },
+      {
+        url: img27,
+        alt: 'WIT'
+      },
+      {
+        url: img28,
+        alt: 'WIT'
+      },
+      {
+        url: img29,
+        alt: 'WIT'
+      },
+      {
+        url: img30,
+        alt: 'WIT'
+      },
+      {
+        url: img31,
+        alt: 'WIT'
+      },
+      {
+        url: img32,
+        alt: 'WIT'
+      },
+      {
+        url: img33,
+        alt: 'WIT'
+      },
+      {
+        url: img34,
+        alt: 'WIT'
+      },
+      {
+        url: img35,
+        alt: 'WIT'
+      },
+      {
+        url: img36,
+        alt: 'WIT'
+      },
+      {
+        url: img37,
+        alt: 'WIT'
+      },
+      {
+        url: img38,
+        alt: 'WIT'
+      },
+      {
+        url: img39,
+        alt: 'WIT'
+      },
+      
+      {
+        url: img43,
+        alt: 'WIT'
+      },
+      {
+        url: img44,
+        alt: 'WIT'
+      },
+      {
+        url: img46,
+        alt: 'WIT'
+      },
+      
     ]
   }
 ]

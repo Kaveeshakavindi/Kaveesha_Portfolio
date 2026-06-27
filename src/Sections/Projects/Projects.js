@@ -4,26 +4,11 @@ import { projectsData } from '../../data'
 import { ProjectCard } from '../../Components/ProjectCard'
 
 export const Projects = () => {
-  const [current, setCurrent] = useState(0)
-  const prev = () => {
-    if (current > 0) {
-      setCurrent(current - 1)
-    } else {
-      setCurrent(current)
-    }
-  }
-  const next = () => {
-    if (current != projectsData.length - 1) {
-      setCurrent(current + 1)
-    } else {
-      setCurrent(current)
-    }
-  }
 
   return (
     <section id="testimonials" className="py-24 px-6" style={{ background: 'var(--color-bg)' }}>
       <div className="max-w-5xl mx-auto">
- 
+
         {/* Header */}
         <div className="mb-16">
           <p
@@ -36,21 +21,22 @@ export const Projects = () => {
             className="text-4xl font-light leading-tight"
             style={{ color: 'var(--true-color)' }}
           >
-           Featured Work
+            Featured Work
           </h2>
           <div
             className="mt-4 h-px w-12"
             style={{ background: 'var(--stroke-color)' }}
           />
         </div>
-          <div className='projects-cards-container'>
+        <div className='projects-cards-container'>
+          {projectsData.map((project) => (
             <ProjectCard
-              project={projectsData[current]}
-              onPrev={prev}
-              onNext={next}
+              key={project.id} project={project}
             />
-          </div>
+          ))}
+
         </div>
+      </div>
     </section>
   )
 }
