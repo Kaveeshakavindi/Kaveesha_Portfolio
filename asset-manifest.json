@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kaveesha_Portfolio/static/css/main.cf3aec85.css",
-    "main.js": "/Kaveesha_Portfolio/static/js/main.3acdbfa9.js",
+    "main.js": "/Kaveesha_Portfolio/static/js/main.2c972d49.js",
     "static/media/4.png": "/Kaveesha_Portfolio/static/media/4.03a506fa9398c01fa54c.png",
     "static/media/2.png": "/Kaveesha_Portfolio/static/media/2.67c3a1d7ad076133528b.png",
     "static/media/3.png": "/Kaveesha_Portfolio/static/media/3.1c8c4689b1400c535b33.png",
@@ -46,10 +46,10 @@
     "static/media/conf.png": "/Kaveesha_Portfolio/static/media/conf.1bfef666ecfcceb6eece.png",
     "index.html": "/Kaveesha_Portfolio/index.html",
     "main.cf3aec85.css.map": "/Kaveesha_Portfolio/static/css/main.cf3aec85.css.map",
-    "main.3acdbfa9.js.map": "/Kaveesha_Portfolio/static/js/main.3acdbfa9.js.map"
+    "main.2c972d49.js.map": "/Kaveesha_Portfolio/static/js/main.2c972d49.js.map"
   },
   "entrypoints": [
     "static/css/main.cf3aec85.css",
-    "static/js/main.3acdbfa9.js"
+    "static/js/main.2c972d49.js"
   ]
 }
