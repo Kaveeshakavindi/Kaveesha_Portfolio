@@ -5,7 +5,7 @@ export const ProjectCard = ({ project }) => {
     <div className="flex p-4 border border-white/10 my-4 rounded-lg ">
       <div className="w-[200px] h-[48px] flex-shrink-0 overflow-hidden rounded">
         <img
-          src={project.image}
+          src={project.main_image}
           alt={project.title}
           className="w-full h-full object-cover"
         />

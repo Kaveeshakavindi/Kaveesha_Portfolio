@@ -104,7 +104,6 @@ export const projectCategories = [
 export const projectsData = [
   {
     title: 'PHQ & GAD Score Regression',
-    categories: [projectCategories[2], projectCategories[5]],
     link: 'https://github.com/Kaveeshakavindi/PHQ-GAD-Score-Regression.git',
     description:
       'Predicting baseline anxiety (GAD) and depression (PHQ) scores from momentary negative thought patterns collected via Experience Sampling Method. Best result Random Forest Regressor achieving 0.7335 of R² with 10-fold cross-validation',
@@ -112,7 +111,6 @@ export const projectsData = [
   },
    {
     title: 'Steller Class Prediction',
-    categories: [projectCategories[2], projectCategories[5]],
     link: 'https://github.com/Kaveeshakavindi/steller_class_prediction.git',
     description:
       'Classify astronomical objects using Random Forest classifier achieving 96% accuracy and 0.96 weighted F1 on the Kaggle Playground Series S6E6 competition dataset. Applied robust scaling and one-hot encoding to handle outliers across  data.',
@@ -120,12 +118,10 @@ export const projectsData = [
   },
   {
     title: 'ThreeJs Drone Website',
-    categories: [projectCategories[2], projectCategories[5]],
     link: 'https://ember-sooty.vercel.app',
     description:
       'Modeled every part of the drone, from blades to body with Blender version 4.4.3. Each piece was animated to simulate realistic movement, tilt and control.',
-    main_image: p1,
-    sub_image: p1_2
+    main_image: p1
   },
   {
     title: 'Dice Rolling Game',
@@ -157,16 +153,10 @@ export const projectsData = [
   },
   {
     title: 'Claract Skin',
-    categories: [
-      projectCategories[7],
-      projectCategories[8],
-      projectCategories[9]
-    ],
     link: 'https://github.com/Kaveeshakavindi/claract-client',
     description:
       'Claract Skin is a skin care web application that utilise MongoDB for data storage and React for the front-end interface.',
     main_image: p3,
-    sub_image: ''
   }
 ]
 
