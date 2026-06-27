@@ -28,7 +28,7 @@ export const Projects = () => {
             style={{ background: 'var(--stroke-color)' }}
           />
         </div>
-        <div className='projects-cards-container'>
+        <div className=''>
           {projectsData.map((project) => (
             <ProjectCard
               key={project.id} project={project}
