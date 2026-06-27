@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kaveesha_Portfolio/static/css/main.c7e2f9a5.css",
-    "main.js": "/Kaveesha_Portfolio/static/js/main.dd1ea656.js",
+    "main.css": "/Kaveesha_Portfolio/static/css/main.cf3aec85.css",
+    "main.js": "/Kaveesha_Portfolio/static/js/main.3acdbfa9.js",
     "static/media/4.png": "/Kaveesha_Portfolio/static/media/4.03a506fa9398c01fa54c.png",
     "static/media/2.png": "/Kaveesha_Portfolio/static/media/2.67c3a1d7ad076133528b.png",
     "static/media/3.png": "/Kaveesha_Portfolio/static/media/3.1c8c4689b1400c535b33.png",
@@ -39,16 +39,17 @@
     "static/media/17.png": "/Kaveesha_Portfolio/static/media/17.f2a56c3255867df48764.png",
     "static/media/18.png": "/Kaveesha_Portfolio/static/media/18.66d7f0f0c10931d11d74.png",
     "static/media/20.png": "/Kaveesha_Portfolio/static/media/20.e36337c5a8561be6ac61.png",
+    "static/media/apod.jpg": "/Kaveesha_Portfolio/static/media/apod.730d1aa01ab3f35ef50c.jpg",
     "static/media/rf_tuned_pred_vs_actual.png": "/Kaveesha_Portfolio/static/media/rf_tuned_pred_vs_actual.fe175732293cab032fac.png",
     "static/media/klogo.gif": "/Kaveesha_Portfolio/static/media/klogo.3812956e15a5e9b93dc6.gif",
     "static/media/skills.png": "/Kaveesha_Portfolio/static/media/skills.7d3bdb71f83042566d0e.png",
     "static/media/conf.png": "/Kaveesha_Portfolio/static/media/conf.1bfef666ecfcceb6eece.png",
     "index.html": "/Kaveesha_Portfolio/index.html",
-    "main.c7e2f9a5.css.map": "/Kaveesha_Portfolio/static/css/main.c7e2f9a5.css.map",
-    "main.dd1ea656.js.map": "/Kaveesha_Portfolio/static/js/main.dd1ea656.js.map"
+    "main.cf3aec85.css.map": "/Kaveesha_Portfolio/static/css/main.cf3aec85.css.map",
+    "main.3acdbfa9.js.map": "/Kaveesha_Portfolio/static/js/main.3acdbfa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e2f9a5.css",
-    "static/js/main.dd1ea656.js"
+    "static/css/main.cf3aec85.css",
+    "static/js/main.3acdbfa9.js"
   ]
 }
